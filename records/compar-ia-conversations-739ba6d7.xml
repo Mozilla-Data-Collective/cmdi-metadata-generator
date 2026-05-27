@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:cmd="http://www.clarin.eu/cmd/1"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:cue="http://www.clarin.eu/cmd/cues/1"
- xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
- xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
-        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
-        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmklbq9qt006mnw077t9lqh89</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
@@ -25,26 +25,29 @@
         <cmd:ResourceRelationList />
     </cmd:Resources>
     <cmd:Components>
-        <Corpus>
-            <CLARIN-D-metadata>
-                <Name>Compar:IA conversations</Name>
-                <Title>Compar:IA conversations</Title>
-                <Description>The compar:IA dataset is a large-scale collection of real user conversations generated on the compar:IA platform, a public conversational AI comparison service developed within the French Ministry of Culture. The platform allows users to interact with two conversational AI models side by side and compare their answers in a blind setting. Its goals are both educational, by helping users understand how different models behave, and technical, by contributing open alignment and evaluation data, with a strong focus on French-language use.
+        <ResourceBasicInfo>
+            <Name>Compar:IA conversations</Name>
+            <Title>Compar:IA conversations</Title>
+            <Description>The compar:IA dataset is a large-scale collection of real user conversations generated on the compar:IA platform, a public conversational AI comparison service developed within the French Ministry of Culture. The platform allows users to interact with two conversational AI models side by side and compare their answers in a blind setting. Its goals are both educational, by helping users understand how different models behave, and technical, by contributing open alignment and evaluation data, with a strong focus on French-language use.
 
 The dataset contains nearly 400,000 paired conversations produced by more than 30 conversational AI models, including both open-source and proprietary systems. Most interactions are in French and reflect unconstrained, real-world uses of conversational AI across a wide range of topics, such as writing, programming, administration, creative tasks, and everyday questions. Prompts are not curated or engineered, which makes the data representative of actual user behavior rather than benchmark-style evaluations.
 
 Each entry includes the full conversation with two compared models, along with metadata linking the pair, identifying the models, and describing the dialogue structure. Additional fields provide automatically generated summaries, keywords, thematic categories, detected languages, and usage metadata. The dataset also includes estimates related to model size, output token counts, and electricity consumption, enabling analysis of performance and efficiency trade-offs.
 
 User consent is collected through the platform’s terms of use. Automated detection is used to identify and anonymize personally identifiable information, but no filtering is applied to remove potentially toxic or sensitive content, in order to support research on safety and real-world risks. The dataset is released under the open Etalab 2.0 license and is intended for research and development in conversational model alignment, evaluation methods, human–AI interaction, and AI safety, particularly for French and other under-resourced languages.</Description>
-                <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>ComparIA</Organisation>
-                <DistributionType>PUB</DistributionType>
-                <PublicationYear>2026</PublicationYear>
-		<Format>application/vnd.apache.parquet</Format>
-                <ISO639>
-                    <iso-639-3-code>fra</iso-639-3-code>
-                </ISO639>
-            </CLARIN-D-metadata>
-        </Corpus>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>ComparIA</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>application/vnd.apache.parquet</Format>
+            <ISO639>
+                <iso-639-3-code>fra</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>Etalab 2.0</identifier>
+                <label>Etalab 2.0</label>
+                <url>https://www.data.gouv.fr/pages/legal/licences/etalab-2.0</url>
+            </Licence>
+        </ResourceBasicInfo>
     </cmd:Components>
 </cmd:CMD>

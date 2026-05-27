@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:cmd="http://www.clarin.eu/cmd/1"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:cue="http://www.clarin.eu/cmd/cues/1"
- xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
- xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
-        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
-        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmlgm5a94008kny07nz2intus</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
@@ -25,22 +25,25 @@
         <cmd:ResourceRelationList />
     </cmd:Resources>
     <cmd:Components>
-        <Corpus>
-            <CLARIN-D-metadata>
-                <Name>Jember Javanese Spontaneous Speech Corpus</Name>
-                <Title>Jember Javanese Spontaneous Speech Corpus</Title>
-                <Description>The Jember Javanese Spontaneous Speech Corpus is a spoken dataset of approximately 10 hours of audio collected from native Javanese speakers in Jember Regency, East Java, Indonesia. The corpus represents the Jember dialect of Javanese as well as the Pandhalungan variety. The recordings capture natural and spontaneous speech phenomena, including code-mixing and code-switching between Javanese, Madurese, Indonesian, and English, along with common features of spoken discourse such as reduplication and truncated word forms. These characteristics reflect authentic language use in informal and semi-formal contexts and contribute to phonological and lexical variation in the data. As such, the dataset is well suited for linguistic analysis and supports the non-commercial development and evaluation of Automatic Speech Recognition (ASR) systems for East Javanese varieties.</Description>
-                <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Universitas Gadjah Mada</Organisation>
-                <DistributionType>PUB</DistributionType>
-                <PublicationYear>2026</PublicationYear>
-		<Format>audio/mpeg</Format>
+        <ResourceBasicInfo>
+            <Name>Jember Javanese Spontaneous Speech Corpus</Name>
+            <Title>Jember Javanese Spontaneous Speech Corpus</Title>
+            <Description>The Jember Javanese Spontaneous Speech Corpus is a spoken dataset of approximately 10 hours of audio collected from native Javanese speakers in Jember Regency, East Java, Indonesia. The corpus represents the Jember dialect of Javanese as well as the Pandhalungan variety. The recordings capture natural and spontaneous speech phenomena, including code-mixing and code-switching between Javanese, Madurese, Indonesian, and English, along with common features of spoken discourse such as reduplication and truncated word forms. These characteristics reflect authentic language use in informal and semi-formal contexts and contribute to phonological and lexical variation in the data. As such, the dataset is well suited for linguistic analysis and supports the non-commercial development and evaluation of Automatic Speech Recognition (ASR) systems for East Javanese varieties.</Description>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>Universitas Gadjah Mada</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>audio/mpeg</Format>
 
-                <Format>text/tab-separated-values</Format>
-                <ISO639>
-                    <iso-639-3-code>jav</iso-639-3-code>
-                </ISO639>
-            </CLARIN-D-metadata>
-        </Corpus>
+            <Format>text/tab-separated-values</Format>
+            <ISO639>
+                <iso-639-3-code>jav</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>CC-BY-NC-SA-4.0</identifier>
+                <label>Creative Commons Attribution Non Commercial Share Alike 4.0 International (CC-BY-NC-SA-4.0)</label>
+                <url>https://spdx.org/licenses/CC-BY-NC-SA-4.0.html</url>
+            </Licence>
+        </ResourceBasicInfo>
     </cmd:Components>
 </cmd:CMD>

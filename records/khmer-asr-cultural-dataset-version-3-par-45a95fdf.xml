@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:cmd="http://www.clarin.eu/cmd/1"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:cue="http://www.clarin.eu/cmd/cues/1"
- xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
- xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
-        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
-        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmpdy0icy00l9nu07zo5hl1m3</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
@@ -25,20 +25,23 @@
         <cmd:ResourceRelationList />
     </cmd:Resources>
     <cmd:Components>
-        <Corpus>
-            <CLARIN-D-metadata>
-                <Name>Khmer ASR Cultural Dataset (Version 3 - Part 7)</Name>
-                <Title>Khmer ASR Cultural Dataset (Version 3 - Part 7)</Title>
-                <Description>81.01 hours of manually curated speech-text pairs by native speakers in the Khmer language about Cambodian cultural topics. On average, each recording is 8 seconds. Speaker metadata (gender, age group, and origin city) is provided.</Description>
-                <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>DDD-Cambodia</Organisation>
-                <DistributionType>PUB</DistributionType>
-                <PublicationYear>2026</PublicationYear>
-		<Format>audio/wav</Format>
-                <ISO639>
-                    <iso-639-3-code>khm</iso-639-3-code>
-                </ISO639>
-            </CLARIN-D-metadata>
-        </Corpus>
+        <ResourceBasicInfo>
+            <Name>Khmer ASR Cultural Dataset (Version 3 - Part 7)</Name>
+            <Title>Khmer ASR Cultural Dataset (Version 3 - Part 7)</Title>
+            <Description>81.01 hours of manually curated speech-text pairs by native speakers in the Khmer language about Cambodian cultural topics. On average, each recording is 8 seconds. Speaker metadata (gender, age group, and origin city) is provided.</Description>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>DDD-Cambodia</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>audio/wav</Format>
+            <ISO639>
+                <iso-639-3-code>khm</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>CC-BY-SA-4.0</identifier>
+                <label>Creative Commons Attribution Share Alike 4.0 International (CC-BY-SA-4.0)</label>
+                <url>https://spdx.org/licenses/CC-BY-SA-4.0.html</url>
+            </Licence>
+        </ResourceBasicInfo>
     </cmd:Components>
 </cmd:CMD>

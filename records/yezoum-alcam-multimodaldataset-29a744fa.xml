@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:cmd="http://www.clarin.eu/cmd/1"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:cue="http://www.clarin.eu/cmd/cues/1"
- xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
- xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
-        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
-        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmndjfw9d000qmj070dece40f</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
@@ -25,25 +25,28 @@
         <cmd:ResourceRelationList />
     </cmd:Resources>
     <cmd:Components>
-        <Corpus>
-            <CLARIN-D-metadata>
-                <Name>Yezoum_ALCAM-MultimodalDataset</Name>
-                <Title>Yezoum_ALCAM-MultimodalDataset</Title>
-                <Description>Yezoum_ALCAM-MultimodalDataset is a richly curated, multimodal linguistic dataset dedicated to the documentation and technological enhancement of the Yezoum variety of the widely designated 'Ewondo language', or sometimes of the macro linguistic group known as Beti or Beti-Fang. Yezoum is a localised and socially embedded speech form that is rarely represented in standard grammatical descriptions or lexicographical resources. The dataset comprises three closely aligned components: (i) a structured datasheet containing carefully selected example sentences reflecting casual, albeit non-authentic, usage in the Yezoum variety; (ii) high-quality audio recordings of these sentences, produced by a native speaker; and (iii) an explicit audio–sentence mapping file enabling precise alignment between the textual and acoustic data.
+        <ResourceBasicInfo>
+            <Name>Yezoum_ALCAM-MultimodalDataset</Name>
+            <Title>Yezoum_ALCAM-MultimodalDataset</Title>
+            <Description>Yezoum_ALCAM-MultimodalDataset is a richly curated, multimodal linguistic dataset dedicated to the documentation and technological enhancement of the Yezoum variety of the widely designated 'Ewondo language', or sometimes of the macro linguistic group known as Beti or Beti-Fang. Yezoum is a localised and socially embedded speech form that is rarely represented in standard grammatical descriptions or lexicographical resources. The dataset comprises three closely aligned components: (i) a structured datasheet containing carefully selected example sentences reflecting casual, albeit non-authentic, usage in the Yezoum variety; (ii) high-quality audio recordings of these sentences, produced by a native speaker; and (iii) an explicit audio–sentence mapping file enabling precise alignment between the textual and acoustic data.
 The dataset's primary added value lies in its explicit focus on the Yezoum variety, which, as many other 'satellite' varieties of Beti/Beti-Fang, typically remains invisible in reference grammars, dictionaries and educational materials that often privilege standardised or prestigious varieties such as Ewondo and Bulu. The dataset captures micro-variation in phonetics, phonology, morphosyntax and lexical choice, which are essential for understanding socially situated linguistic practices rather than a homogeneous, abstract system. In this sense, the dataset contributes to a more inclusive representation of linguistic diversity.
 From a methodological perspective, the dataset is designed to bridge the gap between language documentation and language technology. The parallel availability of text in the Yezoum variety and in French, alongside aligned speech, makes the dataset suitable for a wide range of applications, including automatic speech recognition (ASR), text-to-speech (TTS), machine translation (MT), forced alignment, pronunciation modelling and multimodal language learning tools. At the same time, the structured datasheet supports linguistic analysis, contrastive studies with other language varieties and pedagogical uses in teacher training and language revitalisation contexts.
 More broadly, the Yezoum_ALCAM-MultimodalDataset exemplifies an approach to African language resources that highlights fluidity, longitudinal variation, orality and community-based practice.</Description>
-                <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Institute of African Digital Humanities</Organisation>
-                <DistributionType>PUB</DistributionType>
-                <PublicationYear>2026</PublicationYear>
-		<Format>audio/mpeg</Format>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>Institute of African Digital Humanities</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>audio/mpeg</Format>
 
-                <Format>text/tab-separated-values</Format>
-                <ISO639>
-                    <iso-639-3-code>ewo</iso-639-3-code>
-                </ISO639>
-            </CLARIN-D-metadata>
-        </Corpus>
+            <Format>text/tab-separated-values</Format>
+            <ISO639>
+                <iso-639-3-code>ewo</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>NOODL-1.0</identifier>
+                <label>Nwulite Obodo Open Data Licence 1.0 (NOODL-1.0)</label>
+                <url>https://mozilladatacollective.com/datasets/cmndjfw9d000qmj070dece40f</url>
+            </Licence>
+        </ResourceBasicInfo>
     </cmd:Components>
 </cmd:CMD>

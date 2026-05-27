@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:cmd="http://www.clarin.eu/cmd/1"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:cue="http://www.clarin.eu/cmd/cues/1"
- xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
- xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
-        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
-        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cml161p08007ynt07iilell66</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
@@ -25,20 +25,23 @@
         <cmd:ResourceRelationList />
     </cmd:Resources>
     <cmd:Components>
-        <Corpus>
-            <CLARIN-D-metadata>
-                <Name>TTS Muna Dataset</Name>
-                <Title>TTS Muna Dataset</Title>
-                <Description>The Muna language, locally known as Wuna, is an Austronesian language spoken by approximately 300,000 people in Southeast Sulawesi, primarily on Muna Island, large parts of West Muna, and the western coastal areas of Buton and Central Buton, Indonesia. According to data from Ethnologue and the Kemendikbud Language Map, this language has an extensive distribution but faces sustainability challenges, currently holding a Threatened status as it is increasingly less common for it to be actively passed down to the youngest generation. Internally, the Muna language possesses a rich diversity of dialects that reflect the historical migration of its people, including Standard Muna in central areas like Raha, the Gu-Mawasangka dialect in Central Buton, and specialized dialects on smaller islands such as Kadatua and Siompu. Furthermore, the Tiworo dialect is specifically spoken in the northwest or the Tiworo Archipelago and West Muna regions, featuring distinct lexical characteristics that set it apart from the central dialect, while the Lohia dialect is rooted in the Lohia District with unique phonological traits and a sharp accent. The existence of the Tiworo and Lohia dialects emphasizes that while Muna appears to be a single entity, there are strong local linguistic variations officially recognized by both Ethnologue and Kemendikbud documentation. All these dialects form a cohesive Muna language ecosystem that is grammatically complex, particularly in its use of verb conjugation systems based on subjects and temporal aspects, making it one of the most unique indigenous languages in the Celebic region.</Description>
-                <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>MDC Community</Organisation>
-                <DistributionType>PUB</DistributionType>
-                <PublicationYear>2026</PublicationYear>
-		
-                <ISO639>
-                    <iso-639-3-code>mnb</iso-639-3-code>
-                </ISO639>
-            </CLARIN-D-metadata>
-        </Corpus>
+        <ResourceBasicInfo>
+            <Name>TTS Muna Dataset</Name>
+            <Title>TTS Muna Dataset</Title>
+            <Description>The Muna language, locally known as Wuna, is an Austronesian language spoken by approximately 300,000 people in Southeast Sulawesi, primarily on Muna Island, large parts of West Muna, and the western coastal areas of Buton and Central Buton, Indonesia. According to data from Ethnologue and the Kemendikbud Language Map, this language has an extensive distribution but faces sustainability challenges, currently holding a Threatened status as it is increasingly less common for it to be actively passed down to the youngest generation. Internally, the Muna language possesses a rich diversity of dialects that reflect the historical migration of its people, including Standard Muna in central areas like Raha, the Gu-Mawasangka dialect in Central Buton, and specialized dialects on smaller islands such as Kadatua and Siompu. Furthermore, the Tiworo dialect is specifically spoken in the northwest or the Tiworo Archipelago and West Muna regions, featuring distinct lexical characteristics that set it apart from the central dialect, while the Lohia dialect is rooted in the Lohia District with unique phonological traits and a sharp accent. The existence of the Tiworo and Lohia dialects emphasizes that while Muna appears to be a single entity, there are strong local linguistic variations officially recognized by both Ethnologue and Kemendikbud documentation. All these dialects form a cohesive Muna language ecosystem that is grammatically complex, particularly in its use of verb conjugation systems based on subjects and temporal aspects, making it one of the most unique indigenous languages in the Celebic region.</Description>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>MDC Community</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            
+            <ISO639>
+                <iso-639-3-code>mnb</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>CC-BY-NC-SA-4.0</identifier>
+                <label>Creative Commons Attribution Non Commercial Share Alike 4.0 International (CC-BY-NC-SA-4.0)</label>
+                <url>https://spdx.org/licenses/CC-BY-NC-SA-4.0.html</url>
+            </Licence>
+        </ResourceBasicInfo>
     </cmd:Components>
 </cmd:CMD>

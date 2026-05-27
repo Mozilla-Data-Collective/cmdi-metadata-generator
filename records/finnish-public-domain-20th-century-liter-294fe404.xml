@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
- xmlns:cmd="http://www.clarin.eu/cmd/1"
- xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
- xmlns:cue="http://www.clarin.eu/cmd/cues/1"
- xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
- xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
     <cmd:Header>
         <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
-        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
-        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmm5078n50168mk07v64792sf</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
@@ -25,24 +25,27 @@
         <cmd:ResourceRelationList />
     </cmd:Resources>
     <cmd:Components>
-        <Corpus>
-            <CLARIN-D-metadata>
-                <Name>Finnish Public Domain 20th Century Literature Text Corpus</Name>
-                <Title>Finnish Public Domain 20th Century Literature Text Corpus</Title>
-                <Description>This corpus contains a curated collection of public domain literature from Finland, featuring works by authors who died between 1901 and 1955. The dataset captures the literary landscape of early 20th-century Finland and includes independent texts in both of the country's official languages: Finnish (fi) and Swedish (sv). The texts were programmatically extracted from Project Lönnrot, a volunteer-driven digital library. To ensure linguistic relevance for modern NLP tasks, the extraction pipeline strictly filtered for works published in 1901 or later. Language codes for each text were dynamically detected using CLD algorithms. The corpus comprises approximately 69.1 million words across multiple plain text files, with each file prefaced by structured YAML front matter containing relevant metadata (title, author, year, source URL, language), followed by the original project's boilerplate preamble enclosed in delimiter tags, and finally the literary text proper. All included works are fully in the public domain under Finnish and EU copyright law.</Description>
-                <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Taruen</Organisation>
-                <DistributionType>PUB</DistributionType>
-                <PublicationYear>2026</PublicationYear>
-		<Format>text/plain</Format>
-                <ISO639>
-                    <iso-639-3-code>fin</iso-639-3-code>
-                </ISO639>
+        <ResourceBasicInfo>
+            <Name>Finnish Public Domain 20th Century Literature Text Corpus</Name>
+            <Title>Finnish Public Domain 20th Century Literature Text Corpus</Title>
+            <Description>This corpus contains a curated collection of public domain literature from Finland, featuring works by authors who died between 1901 and 1955. The dataset captures the literary landscape of early 20th-century Finland and includes independent texts in both of the country's official languages: Finnish (fi) and Swedish (sv). The texts were programmatically extracted from Project Lönnrot, a volunteer-driven digital library. To ensure linguistic relevance for modern NLP tasks, the extraction pipeline strictly filtered for works published in 1901 or later. Language codes for each text were dynamically detected using CLD algorithms. The corpus comprises approximately 69.1 million words across multiple plain text files, with each file prefaced by structured YAML front matter containing relevant metadata (title, author, year, source URL, language), followed by the original project's boilerplate preamble enclosed in delimiter tags, and finally the literary text proper. All included works are fully in the public domain under Finnish and EU copyright law.</Description>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>Taruen</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>text/plain</Format>
+            <ISO639>
+                <iso-639-3-code>fin</iso-639-3-code>
+            </ISO639>
 
-                <ISO639>
-                    <iso-639-3-code>swe</iso-639-3-code>
-                </ISO639>
-            </CLARIN-D-metadata>
-        </Corpus>
+            <ISO639>
+                <iso-639-3-code>swe</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>CC0-1.0</identifier>
+                <label>Creative Commons Zero v1.0 Universal (CC0-1.0)</label>
+                <url>https://spdx.org/licenses/CC0-1.0.html</url>
+            </Licence>
+        </ResourceBasicInfo>
     </cmd:Components>
 </cmd:CMD>
