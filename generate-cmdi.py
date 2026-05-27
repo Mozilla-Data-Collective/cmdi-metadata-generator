@@ -23,7 +23,7 @@ if len(sys.argv) == 3 and sys.argv[1] == '-s':
 	dataset_info = datacollective.get_dataset_details(dataset_id)
 	
 	dataset_record = cmdi_template.fill_template(dataset_info)
-	print(dataset_record)
+	print(dataset_record.strip())
 	sys.exit(0)
 elif len(sys.argv) != 1:
 	print('Usage: generate-cmdi.py [-s DATASET_ID_OR_SLUG]')

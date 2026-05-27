@@ -60,14 +60,15 @@ TEMPLATE = """
     <cmd:Header>
         <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
         <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
-        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
-        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
         <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
     </cmd:Header>
     <cmd:Resources>
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
-                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
                 <cmd:ResourceRef>{ResourceUrl0}</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
@@ -75,31 +76,34 @@ TEMPLATE = """
         <cmd:ResourceRelationList />
     </cmd:Resources>
     <cmd:Components>
-        <Corpus>
-            <CLARIN-D-metadata>
-                <Name>{Name0}</Name>
-                <Title>{Title0}</Title>
-                <Description>{Description0}</Description>
-                <ResourceClass>{ResourceClass0}</ResourceClass>
-                <Organisation>{Organisation0}</Organisation>
-                <DistributionType>{DistributionType0}</DistributionType>
-                <PublicationYear>{PublicationYear0}</PublicationYear>
-		{FORMAT}
-                {ISO}
-            </CLARIN-D-metadata>
-        </Corpus>
+        <ResourceBasicInfo>
+            <Name>{Name0}</Name>
+            <Title>{Title0}</Title>
+            <Description>{Description0}</Description>
+            <ResourceClass>{ResourceClass0}</ResourceClass>
+            <Organisation>{Organisation0}</Organisation>
+            <DistributionType>{DistributionType0}</DistributionType>
+            <PublicationYear>{PublicationYear0}</PublicationYear>
+            <Licence>
+                <identifier>{LicenceIdentifier0}</identifier>
+                <label>{LicenceLabel0}</label>
+                <url>{LicenceUrl0}</url>
+            </Licence>
+            {FORMAT}
+            {ISO}
+        </ResourceBasicInfo>
     </cmd:Components>
 </cmd:CMD>
 """
 
 TEMPLATE_FORMAT = """
-                <Format>{Format0}</Format>
+            <Format>{Format0}</Format>
 """
 
 TEMPLATE_ISO = """
-                <ISO639>
-                    <iso-639-3-code>{aaa}</iso-639-3-code>
-                </ISO639>
+            <ISO639>
+                <iso-639-3-code>{aaa}</iso-639-3-code>
+            </ISO639>
 """
 
 def escape(s):
@@ -125,6 +129,10 @@ def fill_template(dataset_info):
 	if organisation_name == None:
 		organisation_name = "MDC Community"
 	dataset_record = dataset_record.replace('{Organisation0}', escape(organisation_name))
+	dataset_record = dataset_record.replace('{LicenceIdentifier0}', escape(dataset_info['licenseAbbreviation']))
+	dataset_record = dataset_record.replace('{LicenceLabel0}', escape(dataset_info['license']))
+	licence_url = 'https://spdx.org/licenses/%s.html' % (dataset_info['licenseAbbreviation'])
+	dataset_record = dataset_record.replace('{LicenceUrl0}', licence_url)
 	dataset_record = dataset_record.replace('{PublicationYear0}', dataset_info['createdAt'].split('-')[0])
 	dataset_record = dataset_record.replace('{DistributionType0}', 'PUB')
 	formats = []
