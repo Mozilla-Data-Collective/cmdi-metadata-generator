@@ -149,9 +149,9 @@ dataset_record = dataset_record.replace('{ISO}', locale_tags.strip())
 
 #{'id': 'cmn2h5zd801h3o1075tita1ap', 'slug': 'common-voice-scripted-speech-25-0-czech-a54711a9', 'name': 'Common Voice Scripted Speech 25.0 - Czech', 'shortDescription': 'A collection of read speech recordings in Czech.', 'longDescription': 'A collection of read speech recordings in Czech (Čeština).', 'createdAt': '2026-03-23T00:56:08.780Z', 'isPaid': False, 'basePriceCents': None, 'currency': None, 'locale': 'cs', 'license': 'Creative Commons Zero v1.0 Universal (CC0-1.0)', 'licenseAbbreviation': 'CC0-1.0', 'task': 'ASR', 'format': 'MP3', 'organization': {'name': 'Common Voice', 'slug': 'test-2d27eebd', 'platformFeeRate': None}, 'datasetSubmission': {'id': 'cmn27itzz015bmm07iebhk47v', 'createdBy': 'cmmoxjcia01crl807f7lpq1f0'}, 'filename': 'common-voice-scripted-speech-25-0-czech-a54711a9.tar.gz', 'datasetUrl': 'https://mozilladatacollective.com/datasets/cmn2h5zd801h3o1075tita1ap', 'sizeBytes': '5970163541', 'pricing': {'isPaid': False, 'basePriceCents': None, 'currency': None, 'platformFeeRate': None, 'platformFeeCents': None, 'totalPriceCents': None}}
 
-os.makedirs('cmdi-samples/',exist_ok=True)
+os.makedirs('records/',exist_ok=True)
 
-fd = open('cmdi-samples/' + dataset_info['slug'] + '.xml', 'w+')
+fd = open('records/' + dataset_info['slug'] + '.xml', 'w+')
 
 print(dataset_record.strip(), file=fd)
 

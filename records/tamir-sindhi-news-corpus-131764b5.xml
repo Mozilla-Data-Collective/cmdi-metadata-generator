@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:cue="http://www.clarin.eu/cmd/cues/1"
+ xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+ xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmhruaw9j00llkx07uxgm81a7</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <Corpus>
+            <CLARIN-D-metadata>
+                <Name>Tamir Sindhi News Corpus</Name>
+                <Title>Tamir Sindhi News Corpus</Title>
+                <Description>The corpus contains 1.1 million tokens from the Tamir Sindhi Newspaper published from the year 2022-2025. The text consists of the complete newspaper content including headlines, editorials, finance news and advertisements. The newspaper published in Karachi, Pakistan on daily basis.</Description>
+                <ResourceClass>resourceBundle</ResourceClass>
+                <Organisation>Tamir News Agency</Organisation>
+                <DistributionType>PUB</DistributionType>
+                <PublicationYear>2025</PublicationYear>
+		<Format>text/plain</Format>
+                <ISO639>
+                    <iso-639-3-code>snd</iso-639-3-code>
+                </ISO639>
+            </CLARIN-D-metadata>
+        </Corpus>
+    </cmd:Components>
+</cmd:CMD>

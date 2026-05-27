@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:cue="http://www.clarin.eu/cmd/cues/1"
+ xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+ xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmnxk7u8900a2ny076pyqzama</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <Corpus>
+            <CLARIN-D-metadata>
+                <Name>RFE/RL Ukrainian (Crimea) News Text Corpus</Name>
+                <Title>RFE/RL Ukrainian (Crimea) News Text Corpus</Title>
+                <Description>This dataset serves as a comprehensive longitudinal news corpus for the Ukrainian language focused on the Crimean region, sourced from Krym.Realii (ua.krymr.com), the Crimean project of the Ukrainian Service of Radio Free Europe/Radio Liberty (RFE/RL). Spanning from December 2012 to March 2026, the corpus contains 162,119 unique articles, totaling over 54 million tokens. The dataset captures the historical record and linguistic evolution of the region over more than a decade. The file is formatted as plain text with YAML front-matter metadata, making it ready for linguistic analysis, search indexing, and cultural preservation research.</Description>
+                <ResourceClass>resourceBundle</ResourceClass>
+                <Organisation>RFE/RL</Organisation>
+                <DistributionType>PUB</DistributionType>
+                <PublicationYear>2026</PublicationYear>
+		<Format>text/plain</Format>
+                <ISO639>
+                    <iso-639-3-code>ukr</iso-639-3-code>
+                </ISO639>
+            </CLARIN-D-metadata>
+        </Corpus>
+    </cmd:Components>
+</cmd:CMD>

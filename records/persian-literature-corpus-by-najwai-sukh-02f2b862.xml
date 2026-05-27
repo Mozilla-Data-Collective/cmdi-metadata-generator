@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:cue="http://www.clarin.eu/cmd/cues/1"
+ xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+ xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmn3hs01700e0mb07n3y7brmz</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <Corpus>
+            <CLARIN-D-metadata>
+                <Name>Persian Literature Corpus by Najwai Sukhan</Name>
+                <Title>Persian Literature Corpus by Najwai Sukhan</Title>
+                <Description>The Persian Literature Corpus by Najwai Sukhan is a curated collection of Persian (Farsi) literary and educational texts created for research, computational use, and cultural preservation. It contains about 1.26 million tokens across 20 complete works spanning classical literature, poetry, modern prose, educational writing, philosophy, translations, and culturally rooted creative texts.
+
+Originally compiled in Microsoft Word format, the corpus was cleaned, normalized, and converted into UTF-8 plain text while preserving original orthography and style. Each file represents a complete work, making the dataset useful for both individual text analysis and broader corpus-level study.
+
+The corpus supports corpus linguistics, literary studies, digital humanities, NLP, and Persian language preservation.</Description>
+                <ResourceClass>resourceBundle</ResourceClass>
+                <Organisation>Anjuman e Katib</Organisation>
+                <DistributionType>PUB</DistributionType>
+                <PublicationYear>2026</PublicationYear>
+		<Format>text/plain</Format>
+                <ISO639>
+                    <iso-639-3-code>fas</iso-639-3-code>
+                </ISO639>
+            </CLARIN-D-metadata>
+        </Corpus>
+    </cmd:Components>
+</cmd:CMD>

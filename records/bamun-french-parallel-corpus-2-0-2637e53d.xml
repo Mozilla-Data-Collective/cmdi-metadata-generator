@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:cue="http://www.clarin.eu/cmd/cues/1"
+ xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+ xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmn6ay1xg016jnv07drtmw7qo</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <Corpus>
+            <CLARIN-D-metadata>
+                <Name>Bamun-French Parallel Corpus 2.0</Name>
+                <Title>Bamun-French Parallel Corpus 2.0</Title>
+                <Description>This dataset is an extended and updated version of the 'Bamun-French Parallel Corpus 1.1' that is published on the Mozilla Data Collective platform. It is a parallel corpus of 4,444 lines in Bamun and French suitable for machine translation tasks. The text was obtained by transcribing raw audio files. Translations were added to enrich the original corpus. Bamun and French text alignment was performed in the process of creating this dataset. This version of the dataset resolves formatting issues flagged in the original and nearly doubles the number of aligned translation units compared to version 1.1.</Description>
+                <ResourceClass>resourceBundle</ResourceClass>
+                <Organisation>Institute of African Digital Humanities</Organisation>
+                <DistributionType>PUB</DistributionType>
+                <PublicationYear>2026</PublicationYear>
+		<Format>text/tab-separated-values</Format>
+                <ISO639>
+                    <iso-639-3-code>bax</iso-639-3-code>
+                </ISO639>
+            </CLARIN-D-metadata>
+        </Corpus>
+    </cmd:Components>
+</cmd:CMD>

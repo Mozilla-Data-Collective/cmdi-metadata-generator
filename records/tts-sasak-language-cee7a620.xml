@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:cue="http://www.clarin.eu/cmd/cues/1"
+ xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+ xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cml9i39tx018so40750re64v6</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <Corpus>
+            <CLARIN-D-metadata>
+                <Name>TTS Sasak Language</Name>
+                <Title>TTS Sasak Language</Title>
+                <Description>This dataset is compiled based on a series of questions related to daily life, such as routine activities, social interactions, personal experiences, and common customs of the Sasak people. Answers to these questions were delivered both orally and in writing using the informal Sasak language, as used in everyday communication. The language used in this dataset was produced by native Sasak speakers, thus representing authentic, natural, and contextual language use.
+
+
+Sasak is a regional language spoken by the Sasak people who inhabit Lombok Island, West Nusa Tenggara Province (NTB), Indonesia. The Sasak people are the majority ethnic group in Lombok, and Sasak serves as the primary means of communication in daily life, both within the family, local community, and informal social interactions. Geographically, Sasak speakers are spread throughout Lombok, including West Lombok, Central Lombok, East Lombok, North Lombok, and Mataram City.
+
+
+Open for any collaboration in NLP of Sasak language and Indonesian.</Description>
+                <ResourceClass>resourceBundle</ResourceClass>
+                <Organisation>MDC Community</Organisation>
+                <DistributionType>PUB</DistributionType>
+                <PublicationYear>2026</PublicationYear>
+		<Format>video/webm</Format>
+
+                <Format>text/tab-separated-values</Format>
+                <ISO639>
+                    <iso-639-3-code>sas</iso-639-3-code>
+                </ISO639>
+            </CLARIN-D-metadata>
+        </Corpus>
+    </cmd:Components>
+</cmd:CMD>

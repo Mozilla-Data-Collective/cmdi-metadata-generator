@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:cue="http://www.clarin.eu/cmd/cues/1"
+ xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+ xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmosknxap00vlmj07kf6mugba</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <Corpus>
+            <CLARIN-D-metadata>
+                <Name>TWB Parallel Sentence kits - Lingala (5k)</Name>
+                <Title>TWB Parallel Sentence kits - Lingala (5k)</Title>
+                <Description>The Lingala portion of CLEAR Global's Gamayun Language Data Kits — 5,000 parallel French–Lingala sentences (the `kit5k` mini-kit). French source sentences were drawn from the Tatoeba repository using a selection algorithm that ensures representation of the most frequently used words in French; Lingala translations were produced by professionals and volunteers of the Translators without Borders (now CLEAR Global) translator community. The package includes a single TSV with the parallel sentence pairs and a second TSV containing the original French source sentences with their Tatoeba IDs. Gamayun is part of CLEAR Global's initiative to develop open-source language technology for under-resourced languages used in humanitarian contexts.</Description>
+                <ResourceClass>resourceBundle</ResourceClass>
+                <Organisation>CLEAR Global</Organisation>
+                <DistributionType>PUB</DistributionType>
+                <PublicationYear>2026</PublicationYear>
+		<Format>text/tab-separated-values</Format>
+                <ISO639>
+                    <iso-639-3-code>lin</iso-639-3-code>
+                </ISO639>
+            </CLARIN-D-metadata>
+        </Corpus>
+    </cmd:Components>
+</cmd:CMD>

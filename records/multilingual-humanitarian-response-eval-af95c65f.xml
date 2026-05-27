@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr"
+ xmlns:cmd="http://www.clarin.eu/cmd/1"
+ xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+ xmlns:cue="http://www.clarin.eu/cmd/cues/1"
+ xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+ xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654571"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1381926654571/xsd" CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1381926654571</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>Resource</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmixmkzhk003vnw07a7d2pgns</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <Corpus>
+            <CLARIN-D-metadata>
+                <Name>Multilingual Humanitarian Response Eval (MHRE)</Name>
+                <Title>Multilingual Humanitarian Response Eval (MHRE)</Title>
+                <Description>This multilingual humanitarian dataset contains 655 annotated datapoints evaluating AI chatbot safety and quality in migration and asylum scenarios across four language pairs (English–Farsi (Iranian Persian), Arabic, Kurdish (Sorani), Pashto). Built from 120 expert prompts, it includes outputs from GPT-4o, Gemini 2.5 Flash, and Mistral Small. The dataset provides both human evaluations from Respond Crisis Translation native-speaker evaluators and LLM-as-judge assessments (Gemini 2.5 Flash).</Description>
+                <ResourceClass>resourceBundle</ResourceClass>
+                <Organisation>Taraaz</Organisation>
+                <DistributionType>PUB</DistributionType>
+                <PublicationYear>2025</PublicationYear>
+		<Format>text/csv</Format>
+                <ISO639>
+                    <iso-639-3-code>mul</iso-639-3-code>
+                </ISO639>
+            </CLARIN-D-metadata>
+        </Corpus>
+    </cmd:Components>
+</cmd:CMD>
