@@ -1,5 +1,12 @@
 import iso639
 
+LICENCE_TO_URL = {
+'Onshape':'https://www.onshape.com/en/legal/',
+'libribox':'https://librivox.org/pages/public-domain/',
+'Etalab 2.0':'https://www.data.gouv.fr/pages/legal/licences/etalab-2.0',
+'common-crawl-tou':'https://commoncrawl.org/terms-of-use'
+}
+
 FORMAT_TO_MIME = {
 '.tar.gz': 'application/gzip',
 '.tsv': 'text/tab-separated-values',
@@ -115,6 +122,8 @@ def escape(s):
 def fill_template(dataset_info):
 	#print(dataset_info)
 	# {'id': 'cmkwvpu7s0032mo07jpk20pj1', 'slug': 'greek-phd-theses-corpus-v1-0-849fac7f', 'name': 'Greek PhD Theses Corpus v1.0', 'shortDescription': None, 'longDescription': 'The Greek PhD Theses Corpus is a large-scale, AI-ready text dataset consisting of 55,423 Greek doctoral dissertations produced between 1975 and 2025. It represents the most comprehensive and technically homogenized collection of Greek PhD-level academic writing assembled to date.\n\nThe corpus combines full dissertation texts with rich, structured metadata, processed through a modern, GPU-accelerated pipeline that includes advanced OCR, markdown normalization, and extensive quality assurance. \n\n', 'sizeBytes': '7540341366', 'createdAt': '2026-01-27T17:37:28.120Z', 'organization': {'name': 'EELLAK - GreekFOSS', 'slug': 'eellak-greekfoss-e683acde'}, 'locale': 'gr-GR', 'task': 'NLP', 'license': 'Creative Commons Attribution Non Commercial Share Alike 4.0 International (CC-BY-NC-SA-4.0)', 'licenseAbbreviation': 'CC-BY-NC-SA-4.0', 'format': 'JASONL', 'datasetUrl': 'https://datacollective.mozillafoundation.org/datasets/cmkwvpu7s0032mo07jpk20pj1'}
+
+	spdx_licences = open('spdx.txt').read().strip().split('\n')
 	
 	dataset_record = TEMPLATE
 	
@@ -128,9 +137,15 @@ def fill_template(dataset_info):
 	if organisation_name == None:
 		organisation_name = "MDC Community"
 	dataset_record = dataset_record.replace('{Organisation0}', escape(organisation_name))
-	dataset_record = dataset_record.replace('{LicenceIdentifier0}', escape(dataset_info['licenseAbbreviation']))
+	licence_abbreviation = escape(dataset_info['licenseAbbreviation'])
+	licence_url = dataset_info['datasetUrl']
+	if licence_abbreviation in spdx_licences:
+		licence_url = 'https://spdx.org/licenses/%s.html' % (dataset_info['licenseAbbreviation'])
+	elif licence_abbreviation in LICENCE_TO_URL:
+		licence_url = LICENCE_TO_URL[licence_abbreviation]
+
+	dataset_record = dataset_record.replace('{LicenceIdentifier0}', licence_abbreviation)
 	dataset_record = dataset_record.replace('{LicenceLabel0}', escape(dataset_info['license']))
-	licence_url = 'https://spdx.org/licenses/%s.html' % (dataset_info['licenseAbbreviation'])
 	dataset_record = dataset_record.replace('{LicenceUrl0}', licence_url)
 	dataset_record = dataset_record.replace('{PublicationYear0}', dataset_info['createdAt'].split('-')[0])
 	dataset_record = dataset_record.replace('{DistributionType0}', 'PUB')
