@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Kaleem Magazine Urdu Corpus</Name>
                 <Title>Kaleem Magazine Urdu Corpus</Title>
-                <Description>This corpus is a collection of around 1.4 million tokens of Urdu language. The data was extracted from the archives of a famous Urdu magazine "Kaleem" published weekly from last 30 years. This corpus contains work of literature including stories, short stories, news, poetry, literary reports, fiction, non-fiction, and travelogues. The data is being shared with the approval of the authors. It aims to support linguistic research, language technology development, and cultural preservation. </Description>
+                <Description>This corpus is a collection of around 1.4 million tokens of Urdu language. The data was extracted from the archives of a famous Urdu magazine "Kaleem" published weekly from last 30 years. This corpus contains work of literature including stories, short stories, news, poetry, literary reports, fiction, non-fiction, and travelogues. The data is being shared with the approval of the authors. It aims to support linguistic research, language technology development, and cultural preservation.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Weekly Kaleem Magazine Multan</Organisation>
                 <DistributionType>PUB</DistributionType>

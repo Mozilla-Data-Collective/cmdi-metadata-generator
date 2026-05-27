@@ -36,8 +36,7 @@ lengua de comunidades originarias de México. El corpus contiene monólogos y di
 Para más información, consultar el repositorio del analizador morfológico en:
 https://github.com/apertium/apertium-huv/ o el
 artículo "Towards a finite-state morphological analyser for San Mateo
-Huave".
-</Description>
+Huave".</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Universidad Nacional Autónoma de México, UNAM</Organisation>
                 <DistributionType>PUB</DistributionType>

@@ -30,8 +30,7 @@
                 <Name>TTS Balinese Language</Name>
                 <Title>TTS Balinese Language</Title>
                 <Description>The Balinese TTS dataset is created and narrated by native Balinese speakers with code-mixing in Indonesian. This dataset is designed to showcase the use of the Balinese language in everyday contexts, covering topics such as family, social interactions, and routine community activities. Each recording reflects natural language use by Balinese speakers, thus representing authentic communication in daily life.
-This dataset can be utilized for linguistic research, the development of automatic speech recognition systems, and other applications focused on the preservation and advancement of the Balinese language.
-</Description>
+This dataset can be utilized for linguistic research, the development of automatic speech recognition systems, and other applications focused on the preservation and advancement of the Balinese language.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>

@@ -18,7 +18,7 @@
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmlgys7fj001knx077yktc0pd</cmd:ResourceRef>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmmxib8ic00v6nw07bjrci8vj</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList />
@@ -27,16 +27,27 @@
     <cmd:Components>
         <Corpus>
             <CLARIN-D-metadata>
-                <Name>Khowar Literature Corpus by FLI</Name>
-                <Title>Khowar Literature Corpus by FLI</Title>
-                <Description>The Khowar Literature Corpus by FLI is a curated multi-genre textual dataset consisting of 12 UTF-8 encoded text files with a total of 108K tokens. It includes literary works, poetry, folklore narratives, magazine editions, translated books, articles, reports, and official documents, and supports corpus linguistics, low-resource NLP, digital humanities research, and the preservation of Khowar linguistic and cultural heritage.</Description>
+                <Name>Istorima</Name>
+                <Title>Istorima</Title>
+                <Description>Dataset Language:
+Greek
+
+Dataset Info:
+This dataset consists of oral history content collected from the Istorima archive, including transcribed interviews and associated metadata. The material reflects personal narratives and life stories, primarily in Greek, covering a wide range of social, cultural, and historical topics.
+
+Metadata Info:
+This dataset consists of 13,548 oral history interview records, structured as a tabular dataset with mixed data types. Each record includes a unique identifier (id) along with textual fields such as title, summary, transcription, speaker_name, and researcher_name. Additional metadata fields capture thematic and categorical information (themes, tags), geographic references (geonames, interview_place), and temporal attributes (date, published_at). The dataset also includes numerical and boolean features such as duration_minutes, is_age_restricted, and is_on_demand, as well as a language field indicating the interview language.
+
+Dataset Statistics:
+Words: 96,479,186
+Tokens: 138,933,365</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Forum for Language Initiatives</Organisation>
+                <Organisation>EELLAK - GreekFOSS</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
-		<Format>text/plain</Format>
+		<Format>application/vnd.apache.parquet</Format>
                 <ISO639>
-                    <iso-639-3-code>khw</iso-639-3-code>
+                    <iso-639-3-code>zxx</iso-639-3-code>
                 </ISO639>
             </CLARIN-D-metadata>
         </Corpus>

@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>TTS Central Javanese </Name>
                 <Title>TTS Central Javanese </Title>
-                <Description>The Central Javanese dialect is a variety of the Javanese language that is politically regarded as “Standard Javanese.” It is generally spoken in Semarang, Solo, and Yogyakarta, Indonesia. Central Java and Yogyakarta are considered the historical centers of the Mataram Kingdom in Java. This dialect comprises three speech levels: ngoko, krama, and krama inggil. Ngoko is commonly used in everyday communication, whereas krama and krama inggil are typically used in palace contexts or when addressing elders and individuals of higher social status. This dataset focuses on the ngoko variety as used in daily interactions, including instances of Indonesian and English code-switching.
-</Description>
+                <Description>The Central Javanese dialect is a variety of the Javanese language that is politically regarded as “Standard Javanese.” It is generally spoken in Semarang, Solo, and Yogyakarta, Indonesia. Central Java and Yogyakarta are considered the historical centers of the Mataram Kingdom in Java. This dialect comprises three speech levels: ngoko, krama, and krama inggil. Ngoko is commonly used in everyday communication, whereas krama and krama inggil are typically used in palace contexts or when addressing elders and individuals of higher social status. This dataset focuses on the ngoko variety as used in daily interactions, including instances of Indonesian and English code-switching.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>

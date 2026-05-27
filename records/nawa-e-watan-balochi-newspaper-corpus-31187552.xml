@@ -31,8 +31,7 @@
                 <Title>NAWA-E-WATAN Balochi Newspaper Corpus</Title>
                 <Description>The NAWA-E-WATAN Balochi Newspaper Corpus is a large-scale collection of contemporary Balochi journalistic text comprising approximately ~1.02 million tokens. The corpus reflects modern written Balochi as used in daily news reporting, political coverage, social issues, editorials, and public discourse.
 
-The dataset represents General / Western Balochi (Rakhshani), the variety most commonly employed in print media and newspapers. It provides valuable material for linguistic research, natural language processing (NLP), corpus linguistics, media studies, and the documentation of modern Balochi language usage.
-</Description>
+The dataset represents General / Western Balochi (Rakhshani), the variety most commonly employed in print media and newspapers. It provides valuable material for linguistic research, natural language processing (NLP), corpus linguistics, media studies, and the documentation of modern Balochi language usage.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Balochistan Educational and Cultural Organization</Organisation>
                 <DistributionType>PUB</DistributionType>

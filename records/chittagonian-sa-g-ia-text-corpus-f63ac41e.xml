@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Chittagonian (চাটগাঁইয়া, saṭgãia) Text Corpus</Name>
                 <Title>Chittagonian (চাটগাঁইয়া, saṭgãia) Text Corpus</Title>
-                <Description>The Chittagonian (চাটগাঁইয়া, saṭgãia) Text Corpus is a curated collection of approximately 690,000 tokens reflecting the distinct linguistic and cultural identity of the Greater Chittagong region in Bangladesh. This dataset features a large collection of drama scripts, a unique domain that captures folklore, everyday social themes, and traditional cultural expressions within a single narrative framework. The corpus includes both original .docx files and plain text .txt files. This dual-format structure gives researchers access to both the source material and standardized text for computational modeling and dialectological study.
-</Description>
+                <Description>The Chittagonian (চাটগাঁইয়া, saṭgãia) Text Corpus is a curated collection of approximately 690,000 tokens reflecting the distinct linguistic and cultural identity of the Greater Chittagong region in Bangladesh. This dataset features a large collection of drama scripts, a unique domain that captures folklore, everyday social themes, and traditional cultural expressions within a single narrative framework. The corpus includes both original .docx files and plain text .txt files. This dual-format structure gives researchers access to both the source material and standardized text for computational modeling and dialectological study.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MirasAI</Organisation>
                 <DistributionType>PUB</DistributionType>

@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Rangpuri (অংপুরি Ôṅgpuri) Text Corpus</Name>
                 <Title>Rangpuri (অংপুরি Ôṅgpuri) Text Corpus</Title>
-                <Description>The Rangpuri (অংপুরি Ôṅgpuri) Text Corpus is a professionally curated collection of approximately 501,500 tokens representing the linguistic and cultural heritage of the Rangpur Division in Bangladesh and neighboring regions. The dataset includes a diverse range of genres such as poetry, folklore, and drama scripts, bringing together everyday social themes, cultural expressions, and oral traditions in one resource. It is provided in original .docx documents and plain text files. This corpus is a valuable resource for researchers working on the Kamta group of languages and for the development of computational tools for low-resource Indo-Aryan varieties.
-</Description>
+                <Description>The Rangpuri (অংপুরি Ôṅgpuri) Text Corpus is a professionally curated collection of approximately 501,500 tokens representing the linguistic and cultural heritage of the Rangpur Division in Bangladesh and neighboring regions. The dataset includes a diverse range of genres such as poetry, folklore, and drama scripts, bringing together everyday social themes, cultural expressions, and oral traditions in one resource. It is provided in original .docx documents and plain text files. This corpus is a valuable resource for researchers working on the Kamta group of languages and for the development of computational tools for low-resource Indo-Aryan varieties.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MirasAI</Organisation>
                 <DistributionType>PUB</DistributionType>

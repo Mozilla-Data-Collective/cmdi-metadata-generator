@@ -18,7 +18,7 @@
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmlgys7fj001knx077yktc0pd</cmd:ResourceRef>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmpo53l5b000pku07cem453ac</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList />
@@ -27,16 +27,18 @@
     <cmd:Components>
         <Corpus>
             <CLARIN-D-metadata>
-                <Name>Khowar Literature Corpus by FLI</Name>
-                <Title>Khowar Literature Corpus by FLI</Title>
-                <Description>The Khowar Literature Corpus by FLI is a curated multi-genre textual dataset consisting of 12 UTF-8 encoded text files with a total of 108K tokens. It includes literary works, poetry, folklore narratives, magazine editions, translated books, articles, reports, and official documents, and supports corpus linguistics, low-resource NLP, digital humanities research, and the preservation of Khowar linguistic and cultural heritage.</Description>
+                <Name>Jombang Dialect-Javanese TTS</Name>
+                <Title>Jombang Dialect-Javanese TTS</Title>
+                <Description>The Jombang dialect is part of the Arekan dialect (East Javanese) in East Java Province, Indonesia. However, this dialect has a unique position because it is the meeting point between the cultural influences between "Mataraman" (Solo-Yogyakarta) and "Arekan" (Surabaya-Malang) across Yogyakarta, Central Java, and East Java Province, Indonesia.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Forum for Language Initiatives</Organisation>
+                <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
-		<Format>text/plain</Format>
+		<Format>video/webm</Format>
+
+                <Format>text/tab-separated-values</Format>
                 <ISO639>
-                    <iso-639-3-code>khw</iso-639-3-code>
+                    <iso-639-3-code>jav</iso-639-3-code>
                 </ISO639>
             </CLARIN-D-metadata>
         </Corpus>

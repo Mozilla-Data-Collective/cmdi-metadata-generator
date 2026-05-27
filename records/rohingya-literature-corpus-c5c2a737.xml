@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Rohingya Literature Corpus</Name>
                 <Title>Rohingya Literature Corpus</Title>
-                <Description>The Rohingya Literature Corpus is an exceptionally rare linguistic resource comprising approximately 613,500 tokens. This dataset is uniquely characterized by its use of the Myanmar (Burmese) script to represent the Rohingya language, which is very difficult to find in available linguistic resources. The corpus mainly consists of diverse articles covering cultural knowledge, folklore, oral traditions, and social themes. To support computational processing and large-scale analysis, the collection is divided into 7 distinct files, each representing specific thematic sub-genres and chronological periods. This dataset provides an important foundation for researchers studying cross-script linguistic phenomena and developing computational tools for the Rohingya community.
-</Description>
+                <Description>The Rohingya Literature Corpus is an exceptionally rare linguistic resource comprising approximately 613,500 tokens. This dataset is uniquely characterized by its use of the Myanmar (Burmese) script to represent the Rohingya language, which is very difficult to find in available linguistic resources. The corpus mainly consists of diverse articles covering cultural knowledge, folklore, oral traditions, and social themes. To support computational processing and large-scale analysis, the collection is divided into 7 distinct files, each representing specific thematic sub-genres and chronological periods. This dataset provides an important foundation for researchers studying cross-script linguistic phenomena and developing computational tools for the Rohingya community.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MirasAI</Organisation>
                 <DistributionType>PUB</DistributionType>

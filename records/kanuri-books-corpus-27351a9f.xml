@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Kanuri Books Corpus</Name>
                 <Title>Kanuri Books Corpus</Title>
-                <Description>A text corpus of 10,281 randomized sentences (90,706 words) extracted from books by Kanuri authors Dr. Baba Kura Alkali Gazali, Lawan Dalama, Kaka Gana Abba, and Lawan Hassan. The corpus includes both original and normalized (lowercased, punctuation-removed) versions. It was compiled by CLEAR Global (formerly Translators without Borders) for the creation of open-source language technology. These sentences were also recorded by multiple speakers to make a speech corpus published within TWB Voice. </Description>
+                <Description>A text corpus of 10,281 randomized sentences (90,706 words) extracted from books by Kanuri authors Dr. Baba Kura Alkali Gazali, Lawan Dalama, Kaka Gana Abba, and Lawan Hassan. The corpus includes both original and normalized (lowercased, punctuation-removed) versions. It was compiled by CLEAR Global (formerly Translators without Borders) for the creation of open-source language technology. These sentences were also recorded by multiple speakers to make a speech corpus published within TWB Voice.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>CLEAR Global</Organisation>
                 <DistributionType>PUB</DistributionType>

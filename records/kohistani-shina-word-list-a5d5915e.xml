@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Kohistani Shina Word List</Name>
                 <Title>Kohistani Shina Word List</Title>
-                <Description>The Kohistani Shina Dictionary and Word List Corpus is a curated lexical dataset consisting of a single UTF-8 encoded text file with 154K tokens. It contains Kohistani Shina vocabulary entries with definitions, grammatical notes, and cross-linguistic references, primarily mapping Kohistani Shina words to Urdu. Kohistani Shina is a Dardic Indo-Aryan language spoken in the Indus Kohistan region of Pakistan, and this dataset supports lexicography, language documentation, dictionary building, morphological analysis, and low-resource NLP development.
-</Description>
+                <Description>The Kohistani Shina Dictionary and Word List Corpus is a curated lexical dataset consisting of a single UTF-8 encoded text file with 154K tokens. It contains Kohistani Shina vocabulary entries with definitions, grammatical notes, and cross-linguistic references, primarily mapping Kohistani Shina words to Urdu. Kohistani Shina is a Dardic Indo-Aryan language spoken in the Indus Kohistan region of Pakistan, and this dataset supports lexicography, language documentation, dictionary building, morphological analysis, and low-resource NLP development.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Forum for Language Initiatives</Organisation>
                 <DistributionType>PUB</DistributionType>

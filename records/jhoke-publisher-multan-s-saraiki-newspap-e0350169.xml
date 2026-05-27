@@ -35,8 +35,7 @@ Daily Jhoke Multan (ݙین٘ھ وار جھوک ملتان) is a Saraiki newspape
 
 The corpus includes three UTF-8 text files (each treated as a separate genre/domain) and a cleaned version with Unicode normalization, standardized whitespace and punctuation, and removal of stray symbols or markup.
 
-The dataset reflects contemporary Saraiki usage across journalistic, literary, cultural, and social domains and supports computational and linguistic research.
-</Description>
+The dataset reflects contemporary Saraiki usage across journalistic, literary, cultural, and social domains and supports computational and linguistic research.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Kaleem Art Press</Organisation>
                 <DistributionType>PUB</DistributionType>

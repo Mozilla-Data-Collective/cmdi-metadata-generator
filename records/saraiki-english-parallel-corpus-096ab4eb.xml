@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Saraiki-English Parallel Corpus</Name>
                 <Title>Saraiki-English Parallel Corpus</Title>
-                <Description>This English–Saraiki Parallel Corpus is a curated bilingual dataset of 51,447 aligned sentence pairs (about 0.89 million words in total), translated from English into Saraiki by Kaleem Art Press and cleaned into a consistent sentence-level format for reliable alignment; it is designed to support machine translation training and evaluation, bilingual lexicon and terminology work, and broader linguistic and NLP research for Saraiki, including data-driven language technology development.
-</Description>
+                <Description>This English–Saraiki Parallel Corpus is a curated bilingual dataset of 51,447 aligned sentence pairs (about 0.89 million words in total), translated from English into Saraiki by Kaleem Art Press and cleaned into a consistent sentence-level format for reliable alignment; it is designed to support machine translation training and evaluation, bilingual lexicon and terminology work, and broader linguistic and NLP research for Saraiki, including data-driven language technology development.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Kaleem Art Press</Organisation>
                 <DistributionType>PUB</DistributionType>

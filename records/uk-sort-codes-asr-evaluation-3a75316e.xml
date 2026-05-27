@@ -31,8 +31,7 @@
                 <Title>UK Sort Codes - ASR Evaluation</Title>
                 <Description>This dataset consists of 1,000 UK bank sort codes read out aloud by a single male speaker of UK English from the Midlands. 
 
-Sort codes are used to identify bank branches for making money transfers in the United Kingdom. They consist of six digits, split into groups of two, for example `40-30-24`.
-</Description>
+Sort codes are used to identify bank branches for making money transfers in the United Kingdom. They consist of six digits, split into groups of two, for example `40-30-24`.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Curators</Organisation>
                 <DistributionType>PUB</DistributionType>

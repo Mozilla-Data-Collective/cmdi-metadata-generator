@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Gojri Literature Corpus</Name>
                 <Title>Gojri Literature Corpus</Title>
-                <Description>The Gojri Literature Corpus ontains approximately 60,821 tokens of Gojri (Gujari) text drawn from poetry, short stories, narrative prose, and question–answer literary books. It reflects creative writing and traditional cultural expression, including social themes, folklore, and community knowledge, and supports linguistic research, NLP tasks (e.g., text analysis and language modeling), and the documentation and preservation of Gojri language and literary heritage.
-</Description>
+                <Description>The Gojri Literature Corpus ontains approximately 60,821 tokens of Gojri (Gujari) text drawn from poetry, short stories, narrative prose, and question–answer literary books. It reflects creative writing and traditional cultural expression, including social themes, folklore, and community knowledge, and supports linguistic research, NLP tasks (e.g., text analysis and language modeling), and the documentation and preservation of Gojri language and literary heritage.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Forum for Language Initiatives</Organisation>
                 <DistributionType>PUB</DistributionType>

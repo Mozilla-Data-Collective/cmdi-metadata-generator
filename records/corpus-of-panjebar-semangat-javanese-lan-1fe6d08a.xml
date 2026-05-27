@@ -18,7 +18,7 @@
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmlgys7fj001knx077yktc0pd</cmd:ResourceRef>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmk719jvs02z1nt07tjswt52s</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList />
@@ -27,16 +27,16 @@
     <cmd:Components>
         <Corpus>
             <CLARIN-D-metadata>
-                <Name>Khowar Literature Corpus by FLI</Name>
-                <Title>Khowar Literature Corpus by FLI</Title>
-                <Description>The Khowar Literature Corpus by FLI is a curated multi-genre textual dataset consisting of 12 UTF-8 encoded text files with a total of 108K tokens. It includes literary works, poetry, folklore narratives, magazine editions, translated books, articles, reports, and official documents, and supports corpus linguistics, low-resource NLP, digital humanities research, and the preservation of Khowar linguistic and cultural heritage.</Description>
+                <Name>Corpus of Panjebar Semangat Javanese-Language Magazine</Name>
+                <Title>Corpus of Panjebar Semangat Javanese-Language Magazine</Title>
+                <Description>This dataset is a TXT-format collection compiled from three years of popular articles published in the Javanese-language weekly magazine Panjebar Semangat. It compiles widely read, non-academic Javanese texts reflecting contemporary themes and language use.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Forum for Language Initiatives</Organisation>
+                <Organisation>PT Pancaran Semangat Jaya</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
 		<Format>text/plain</Format>
                 <ISO639>
-                    <iso-639-3-code>khw</iso-639-3-code>
+                    <iso-639-3-code>zxx</iso-639-3-code>
                 </ISO639>
             </CLARIN-D-metadata>
         </Corpus>

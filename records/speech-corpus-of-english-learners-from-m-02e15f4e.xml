@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Speech Corpus of English Learners from Mexico</Name>
                 <Title>Speech Corpus of English Learners from Mexico</Title>
-                <Description>A corpus of read speech by learners of English living in Mexico. The current version represents 8 speakers and makes up nearly 8 hours of recorded speech. </Description>
+                <Description>A corpus of read speech by learners of English living in Mexico. The current version represents 8 speakers and makes up nearly 8 hours of recorded speech.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community Concierge</Organisation>
                 <DistributionType>PUB</DistributionType>

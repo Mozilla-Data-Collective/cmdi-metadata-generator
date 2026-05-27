@@ -31,8 +31,7 @@
                 <Title>Ficha de Documentación de Datos: Resoluciones InfoNL (Ponencia F. Guajardo)</Title>
                 <Description>Este conjunto de datos documenta la actividad resolutiva de la ponencia del Consejero Francisco Guajardo Martínez dentro del órgano garante de transparencia de Nuevo León. Cubre un periodo significativo de gestión (identificado preliminarmente entre 2018 y 2025), reflejando las disputas entre ciudadanos (solicitantes de información) y sujetos obligados (gobierno).
 - Propósito: Los documentos son resoluciones a Recursos de Revisión (RR), el mecanismo legal que activan los ciudadanos cuando una autoridad niega, esconde o entrega información incompleta.
-- Relevancia: Permite auditar el criterio del Consejero para proteger el derecho a saber, identificando si tiende a favorecer la apertura (Modifica/Revoca) o el cierre (Confirma) de la información.
-</Description>
+- Relevancia: Permite auditar el criterio del Consejero para proteger el derecho a saber, identificando si tiende a favorecer la apertura (Modifica/Revoca) o el cierre (Confirma) de la información.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Amnesia</Organisation>
                 <DistributionType>PUB</DistributionType>

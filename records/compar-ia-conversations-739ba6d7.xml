@@ -35,8 +35,7 @@ The dataset contains nearly 400,000 paired conversations produced by more than 3
 
 Each entry includes the full conversation with two compared models, along with metadata linking the pair, identifying the models, and describing the dialogue structure. Additional fields provide automatically generated summaries, keywords, thematic categories, detected languages, and usage metadata. The dataset also includes estimates related to model size, output token counts, and electricity consumption, enabling analysis of performance and efficiency trade-offs.
 
-User consent is collected through the platform’s terms of use. Automated detection is used to identify and anonymize personally identifiable information, but no filtering is applied to remove potentially toxic or sensitive content, in order to support research on safety and real-world risks. The dataset is released under the open Etalab 2.0 license and is intended for research and development in conversational model alignment, evaluation methods, human–AI interaction, and AI safety, particularly for French and other under-resourced languages.
-</Description>
+User consent is collected through the platform’s terms of use. Automated detection is used to identify and anonymize personally identifiable information, but no filtering is applied to remove potentially toxic or sensitive content, in order to support research on safety and real-world risks. The dataset is released under the open Etalab 2.0 license and is intended for research and development in conversational model alignment, evaluation methods, human–AI interaction, and AI safety, particularly for French and other under-resourced languages.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>ComparIA</Organisation>
                 <DistributionType>PUB</DistributionType>

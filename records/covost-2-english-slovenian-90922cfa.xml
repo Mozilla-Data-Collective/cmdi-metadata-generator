@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>CoVoST 2 English-Slovenian</Name>
                 <Title>CoVoST 2 English-Slovenian</Title>
-                <Description>CoVoST 2 is a large-scale multilingual speech to text translation corpus based on Mozilla Common Voice 4.0. This segment of the corpus contains the English audio and the translations in Slovenian. </Description>
+                <Description>CoVoST 2 is a large-scale multilingual speech to text translation corpus based on Mozilla Common Voice 4.0. This segment of the corpus contains the English audio and the translations in Slovenian.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Curators</Organisation>
                 <DistributionType>PUB</DistributionType>

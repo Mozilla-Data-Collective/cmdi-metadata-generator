@@ -34,8 +34,7 @@ domain. The corpus was collected in the second half of 2023 in aid of the Mozill
 
 The dataset contains 79,655 clean sentences (1,325,013 tokens) from nine distinct federal 
 domains. It also contains a total of 209,061 sentences (4,125,637 tokens) of sentences without
-cleaning.
-</Description>
+cleaning.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Curators</Organisation>
                 <DistributionType>PUB</DistributionType>

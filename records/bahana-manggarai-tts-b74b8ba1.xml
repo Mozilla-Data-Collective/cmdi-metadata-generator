@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>BAHANA-Manggarai TTS</Name>
                 <Title>BAHANA-Manggarai TTS</Title>
-                <Description>This dataset supports an underrepresented language in technology by contributing to the development of speech recognition for the Manggarai language. Manggarai is part of the Austronesian language family and is primarily spoken on the island of Flores, Indonesia. As one of Indonesia’s local languages, it occasionally features code-switching and code-mixing with Indonesian and English, although such instances are relatively limited. This dataset provides audio recordings paired with text, representing a variety of topics and everyday expressions. </Description>
+                <Description>This dataset supports an underrepresented language in technology by contributing to the development of speech recognition for the Manggarai language. Manggarai is part of the Austronesian language family and is primarily spoken on the island of Flores, Indonesia. As one of Indonesia’s local languages, it occasionally features code-switching and code-mixing with Indonesian and English, although such instances are relatively limited. This dataset provides audio recordings paired with text, representing a variety of topics and everyday expressions.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Bahasa Bahana</Organisation>
                 <DistributionType>PUB</DistributionType>

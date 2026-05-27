@@ -18,7 +18,7 @@
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmlgys7fj001knx077yktc0pd</cmd:ResourceRef>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmo1sg74a00cwmk07q6nin2of</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList />
@@ -27,16 +27,17 @@
     <cmd:Components>
         <Corpus>
             <CLARIN-D-metadata>
-                <Name>Khowar Literature Corpus by FLI</Name>
-                <Title>Khowar Literature Corpus by FLI</Title>
-                <Description>The Khowar Literature Corpus by FLI is a curated multi-genre textual dataset consisting of 12 UTF-8 encoded text files with a total of 108K tokens. It includes literary works, poetry, folklore narratives, magazine editions, translated books, articles, reports, and official documents, and supports corpus linguistics, low-resource NLP, digital humanities research, and the preservation of Khowar linguistic and cultural heritage.</Description>
+                <Name>ERT Press</Name>
+                <Title>ERT Press</Title>
+                <Description>This dataset is a structured digital collection of press releases and news articles sourced from the official press platform of the Hellenic Broadcasting Corporation (https://press.ert.gr). 
+It contains 18,979 entries representing the official communication and archival record of the national Greek public broadcaster. The dataset captures a wide range of content, including institutional announcements, television and radio programming updates, and news coverage. Each entry provides the full article text along with its corresponding publication timestamp and original source URL.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Forum for Language Initiatives</Organisation>
+                <Organisation>EELLAK - GreekFOSS</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
-		<Format>text/plain</Format>
+		<Format>application/vnd.apache.parquet</Format>
                 <ISO639>
-                    <iso-639-3-code>khw</iso-639-3-code>
+                    <iso-639-3-code>zxx</iso-639-3-code>
                 </ISO639>
             </CLARIN-D-metadata>
         </Corpus>

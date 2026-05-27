@@ -18,7 +18,7 @@
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmlgys7fj001knx077yktc0pd</cmd:ResourceRef>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmo1sklpo00d0mk07taoepe1a</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList />
@@ -27,16 +27,29 @@
     <cmd:Components>
         <Corpus>
             <CLARIN-D-metadata>
-                <Name>Khowar Literature Corpus by FLI</Name>
-                <Title>Khowar Literature Corpus by FLI</Title>
-                <Description>The Khowar Literature Corpus by FLI is a curated multi-genre textual dataset consisting of 12 UTF-8 encoded text files with a total of 108K tokens. It includes literary works, poetry, folklore narratives, magazine editions, translated books, articles, reports, and official documents, and supports corpus linguistics, low-resource NLP, digital humanities research, and the preservation of Khowar linguistic and cultural heritage.</Description>
+                <Name>Modern Greek Dictionary</Name>
+                <Title>Modern Greek Dictionary</Title>
+                <Description>This dataset is a structured digital export of the Triantafyllides Modern Greek Dictionary (Λεξικό της Κοινής Νεοελληνικής — Dictionary of Standard Modern Greek), sourced from the (Greek Language Portal: https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/). It contains 46,745 entries covering the full Modern Greek lexicon. Each entry includes the headword (lemma), pronunciation, full dictionary text, and metadata such as page number and source URL. Also entries include:
+
+-Definitions
+-Grammatical information
+-Example phrases and idioms
+-Etymology
+-References to related words
+
+Metadata Info:
+page_no:	(int) Page number in the original printed dictionary (1–4675)
+lemma: (string) The headword / entry word (e.g., α, α- 1, αβέβαιος, …)
+pronunciation: (string) Phonetic transcription (e.g., álfa, á)
+entry_text: (string) Full dictionary entry text in Greek, including definitions, examples, usage notes, etymology, and cross-references
+source_url: (string) URL of the original page on greek-language.gr</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Forum for Language Initiatives</Organisation>
+                <Organisation>EELLAK - GreekFOSS</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
-		<Format>text/plain</Format>
+		<Format>application/vnd.apache.parquet</Format>
                 <ISO639>
-                    <iso-639-3-code>khw</iso-639-3-code>
+                    <iso-639-3-code>zxx</iso-639-3-code>
                 </ISO639>
             </CLARIN-D-metadata>
         </Corpus>

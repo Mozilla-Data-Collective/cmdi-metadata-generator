@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Western Balochi Literature Cropus</Name>
                 <Title>Western Balochi Literature Cropus</Title>
-                <Description>This dataset is a curated literary corpus of General/Western Balochi (Rakhshani) prepared by the Balochistan Educational and Cultural Organization (BECO), bringing together digitized UTF-8 texts across genres such as poetry, creative literature, folklore-based writing, research articles, academic theses, translations, and other written materials. It reflects authentic Balochi usage from traditional and modern sources and is intended to support language documentation, linguistic research, digital humanities, and NLP development for an under-resourced Iranian language.
-</Description>
+                <Description>This dataset is a curated literary corpus of General/Western Balochi (Rakhshani) prepared by the Balochistan Educational and Cultural Organization (BECO), bringing together digitized UTF-8 texts across genres such as poetry, creative literature, folklore-based writing, research articles, academic theses, translations, and other written materials. It reflects authentic Balochi usage from traditional and modern sources and is intended to support language documentation, linguistic research, digital humanities, and NLP development for an under-resourced Iranian language.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Balochistan Educational and Cultural Organization</Organisation>
                 <DistributionType>PUB</DistributionType>

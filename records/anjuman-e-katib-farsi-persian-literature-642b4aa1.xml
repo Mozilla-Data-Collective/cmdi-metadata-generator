@@ -29,10 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Anjuman-e-Katib Farsi/Persian Literature Corpus</Name>
                 <Title>Anjuman-e-Katib Farsi/Persian Literature Corpus</Title>
-                <Description>This corpus is a collection of more than one million tokens of Farsi/Persian language. The corpus contains work of literature including novels, fictional and non-fictional, poems and many more. the data is shared with the approval of the authors and aims to support linguistic research, language technology development and its preservation.
-
-
-</Description>
+                <Description>This corpus is a collection of more than one million tokens of Farsi/Persian language. The corpus contains work of literature including novels, fictional and non-fictional, poems and many more. the data is shared with the approval of the authors and aims to support linguistic research, language technology development and its preservation.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Anjuman e Katib</Organisation>
                 <DistributionType>PUB</DistributionType>

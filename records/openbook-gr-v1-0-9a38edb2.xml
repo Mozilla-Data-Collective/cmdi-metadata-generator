@@ -18,7 +18,7 @@
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmlgys7fj001knx077yktc0pd</cmd:ResourceRef>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmkwuye570028mo074bppsmiw</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList />
@@ -27,16 +27,16 @@
     <cmd:Components>
         <Corpus>
             <CLARIN-D-metadata>
-                <Name>Khowar Literature Corpus by FLI</Name>
-                <Title>Khowar Literature Corpus by FLI</Title>
-                <Description>The Khowar Literature Corpus by FLI is a curated multi-genre textual dataset consisting of 12 UTF-8 encoded text files with a total of 108K tokens. It includes literary works, poetry, folklore narratives, magazine editions, translated books, articles, reports, and official documents, and supports corpus linguistics, low-resource NLP, digital humanities research, and the preservation of Khowar linguistic and cultural heritage.</Description>
+                <Name>openbook.gr v1.0</Name>
+                <Title>openbook.gr v1.0</Title>
+                <Description>This dataset provides a comprehensive Corpus of Greek Digital Books systematically aggregated from OpenBook.gr. Since its inception in 2010, the OpenBook platform has functioned as a central hub for the Greek open-access movement. The corpus features a robust variety of genres and formats, specifically curated to include only legal, freely distributable content. It serves as a vital resource for Natural Language Processing (NLP), linguistic analysis, and the preservation of Greek digital heritage, ensuring that both historical public domain texts and modern creative works remain accessible for computational study.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Forum for Language Initiatives</Organisation>
+                <Organisation>EELLAK - GreekFOSS</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
-		<Format>text/plain</Format>
+		
                 <ISO639>
-                    <iso-639-3-code>khw</iso-639-3-code>
+                    <iso-639-3-code>zxx</iso-639-3-code>
                 </ISO639>
             </CLARIN-D-metadata>
         </Corpus>

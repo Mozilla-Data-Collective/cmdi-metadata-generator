@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Manggarai Language for NLP</Name>
                 <Title>Manggarai Language for NLP</Title>
-                <Description>This dataset is a specialized linguistic collection designed to support the development of computational resources for Manggarai, a low-resource Austronesian language spoken primarily on the island of Flores, Indonesia. The dataset bridges the gap between written and spoken language by providing a synchronized collection of textual prompts and their corresponding high-quality audio recordings. This dataset is approximately 50,000 words, providing a substantial baseline for various linguistic analyses and model training. The dataset consists of original textual responses paired with their respective audio counterparts. As a resource for a low-resource language, this dataset is intended for use in the fields of Natural Language Processing (NLP) and Speech Technology.
-</Description>
+                <Description>This dataset is a specialized linguistic collection designed to support the development of computational resources for Manggarai, a low-resource Austronesian language spoken primarily on the island of Flores, Indonesia. The dataset bridges the gap between written and spoken language by providing a synchronized collection of textual prompts and their corresponding high-quality audio recordings. This dataset is approximately 50,000 words, providing a substantial baseline for various linguistic analyses and model training. The dataset consists of original textual responses paired with their respective audio counterparts. As a resource for a low-resource language, this dataset is intended for use in the fields of Natural Language Processing (NLP) and Speech Technology.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>

@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>ATLAS Cross-Lingual Transfer Matrix</Name>
                 <Title>ATLAS Cross-Lingual Transfer Matrix</Title>
-                <Description>This matrix is helpful for determining what languages to train a language model with. Given a Target Language, we hope to optimize the performance for (shown as rows), we estimate how beneficial it is to train with each Source Language (shown in the columns). The scores are empirically derived, from 750+ training experiments in the ATLAS multilingual scaling laws paper: https://arxiv.org/pdf/2510.22037. Higher scores indicate greater synergy, whereas lower scores indicate more interference. </Description>
+                <Description>This matrix is helpful for determining what languages to train a language model with. Given a Target Language, we hope to optimize the performance for (shown as rows), we estimate how beneficial it is to train with each Source Language (shown in the columns). The scores are empirically derived, from 750+ training experiments in the ATLAS multilingual scaling laws paper: https://arxiv.org/pdf/2510.22037. Higher scores indicate greater synergy, whereas lower scores indicate more interference.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MIT</Organisation>
                 <DistributionType>PUB</DistributionType>

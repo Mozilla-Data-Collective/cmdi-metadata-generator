@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Aim Foundation Dari Literature Corpus</Name>
                 <Title>Aim Foundation Dari Literature Corpus</Title>
-                <Description>This corpus is a collection of more than seven hundred thousand tokens of Dari language. The corpus contains work of literature including poems, stories, novels, fictional and non-fictional and different articles. The data is being shared with the approval of the authors. It aims to support linguistic research, language technology development and cultural preservation.  </Description>
+                <Description>This corpus is a collection of more than seven hundred thousand tokens of Dari language. The corpus contains work of literature including poems, stories, novels, fictional and non-fictional and different articles. The data is being shared with the approval of the authors. It aims to support linguistic research, language technology development and cultural preservation.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Aim Foundation</Organisation>
                 <DistributionType>PUB</DistributionType>

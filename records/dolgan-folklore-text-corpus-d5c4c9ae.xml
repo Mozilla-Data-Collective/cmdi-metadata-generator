@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Dolgan Folklore Text Corpus</Name>
                 <Title>Dolgan Folklore Text Corpus</Title>
-                <Description>This corpus contains a curated collection of 19 Dolgan fairy tales (15,618 words) digitized from a 2000 academic volume published in Novosibirsk. The Dolgans are the northernmost Turkic-speaking people, and their language is highly endangered. This dataset provides clean, structured data designed to catalyze machine learning and NLP research for low-resource languages, empowering the community to revitalize the Dolgan language. The corpus is structured in plain text files with YAML front matter metadata. It was created with the generous contribution of digitized texts from Karina Sheifer at the University of California, Santa Barbara, with additional digitization and proofreading by Taruen.
-</Description>
+                <Description>This corpus contains a curated collection of 19 Dolgan fairy tales (15,618 words) digitized from a 2000 academic volume published in Novosibirsk. The Dolgans are the northernmost Turkic-speaking people, and their language is highly endangered. This dataset provides clean, structured data designed to catalyze machine learning and NLP research for low-resource languages, empowering the community to revitalize the Dolgan language. The corpus is structured in plain text files with YAML front matter metadata. It was created with the generous contribution of digitized texts from Karina Sheifer at the University of California, Santa Barbara, with additional digitization and proofreading by Taruen.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Taruen</Organisation>
                 <DistributionType>PUB</DistributionType>

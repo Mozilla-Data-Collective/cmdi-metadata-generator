@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Sentence translation difficulty in Spanish - BOUQuET</Name>
                 <Title>Sentence translation difficulty in Spanish - BOUQuET</Title>
-                <Description>This dataset is a collection of sentences in Spanish from the BOUQuET benchmark (total 1990 sentences) which  have been annotated with sentence translation difficulty scores on a Likert scale. The annotators are speakers of three Indigenous languages of the Mexico and Guatemala and scored the sentences as part of the work on  translating the benchmark into their languages.
-</Description>
+                <Description>This dataset is a collection of sentences in Spanish from the BOUQuET benchmark (total 1990 sentences) which  have been annotated with sentence translation difficulty scores on a Likert scale. The annotators are speakers of three Indigenous languages of the Mexico and Guatemala and scored the sentences as part of the work on  translating the benchmark into their languages.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Curators</Organisation>
                 <DistributionType>PUB</DistributionType>

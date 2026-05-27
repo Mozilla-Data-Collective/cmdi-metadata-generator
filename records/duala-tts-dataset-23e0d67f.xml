@@ -18,7 +18,7 @@
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>Resource</cmd:ResourceType>
-                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmlgm5a94008kny07nz2intus</cmd:ResourceRef>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmpmpf0jw021bnu0743hu7763</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList />
@@ -27,18 +27,22 @@
     <cmd:Components>
         <Corpus>
             <CLARIN-D-metadata>
-                <Name>Jember Javanese Spontaneous Speech Corpus</Name>
-                <Title>Jember Javanese Spontaneous Speech Corpus</Title>
-                <Description>The Jember Javanese Spontaneous Speech Corpus is a spoken dataset of approximately 10 hours of audio collected from native Javanese speakers in Jember Regency, East Java, Indonesia. The corpus represents the Jember dialect of Javanese as well as the Pandhalungan variety. The recordings capture natural and spontaneous speech phenomena, including code-mixing and code-switching between Javanese, Madurese, Indonesian, and English, along with common features of spoken discourse such as reduplication and truncated word forms. These characteristics reflect authentic language use in informal and semi-formal contexts and contribute to phonological and lexical variation in the data. As such, the dataset is well suited for linguistic analysis and supports the non-commercial development and evaluation of Automatic Speech Recognition (ASR) systems for East Javanese varieties.</Description>
+                <Name>Duala-TTS-Dataset</Name>
+                <Title>Duala-TTS-Dataset</Title>
+                <Description>This dataset comprises 1,521 high-quality audio recordings of read speech produced by a single Duala speaker over several sessions. Duala (ISO 639-3: dua), also known as Douala, is a Bantu language of the Niger-Congo family spoken primarily in the Littoral Region of Cameroon, notably in the city of Douala and its surrounding areas. It is a low-resource language with limited existing digital speech resources, making this dataset a significant contribution to natural language processing efforts for the language.
+
+Audio files are provided in MP3 format (approx. 147 MB), totalling 4 hours, 30 minutes and 41.64 seconds of speech. The dataset includes 16 audio/sentence mapping files in TSV format, containing 1,521 aligned audio/sentence pairs in total. Transcriptions follow the General Alphabet of Cameroonian Languages, a standardised orthographic system based on the Latin alphabet augmented with phonetic characters and diacritical marks used to represent tonal and phonological features of Cameroonian languages.
+
+The recordings draw on narrative texts relating to colonial encounters and experiences. These narratives originally existed as oral and audio recordings and were subsequently transcribed. The read-speech recordings therefore reflect a rich oral tradition rendered in text, offering valuable prosodic and lexical diversity for training and evaluating TTS and ASR models. The dataset is intended for research and scientific use in speech technology for Duala.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Universitas Gadjah Mada</Organisation>
+                <Organisation>Institute of African Digital Humanities</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
 		<Format>audio/mpeg</Format>
 
                 <Format>text/tab-separated-values</Format>
                 <ISO639>
-                    <iso-639-3-code>jav</iso-639-3-code>
+                    <iso-639-3-code>dua</iso-639-3-code>
                 </ISO639>
             </CLARIN-D-metadata>
         </Corpus>

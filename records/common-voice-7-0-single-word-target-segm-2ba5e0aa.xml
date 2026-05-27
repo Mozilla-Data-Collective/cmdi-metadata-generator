@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Common Voice 7.0 - Single Word Target Segment</Name>
                 <Title>Common Voice 7.0 - Single Word Target Segment</Title>
-                <Description>This dataset contains the numbers 0 to 9 and the words "yes" and "no" in 34 languages. It contains 84 validated hours of speech and 142 hours in total. Its use case driven is to enable spoken digit recognition and yes / no detection. It was collected as part of the Common Voice 7.0 release. </Description>
+                <Description>This dataset contains the numbers 0 to 9 and the words "yes" and "no" in 34 languages. It contains 84 validated hours of speech and 142 hours in total. Its use case driven is to enable spoken digit recognition and yes / no detection. It was collected as part of the Common Voice 7.0 release.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Common Voice</Organisation>
                 <DistributionType>PUB</DistributionType>

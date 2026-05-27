@@ -31,7 +31,7 @@
                 <Title>TidyVoiceX_ASV</Title>
                 <Description>This dataset is designed for speaker verification using the Mozilla Common Voice corpus across 40 languages.
 It includes approximately 5,000 speakers who each have recordings in more than one language.
-Leveraging this multilingual overlap, we construct the trial pairs to explore cross-lingual variation in the speaker verification task. </Description>
+Leveraging this multilingual overlap, we construct the trial pairs to explore cross-lingual variation in the speaker verification task.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>TidyVoice2026 Challenge</Organisation>
                 <DistributionType>PUB</DistributionType>

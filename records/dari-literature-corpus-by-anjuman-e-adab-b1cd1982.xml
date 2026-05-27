@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Dari Literature Corpus by Anjuman e Adabi Nayestan</Name>
                 <Title>Dari Literature Corpus by Anjuman e Adabi Nayestan</Title>
-                <Description>The Dari Literature Corpus (Anjuman e Adabi Nayestan) is a curated collection of written Dari (Afghan Persian) literary texts totaling about 1 million tokens. It includes prose, poetry, folklore-inspired narratives, and other culturally significant writings from both contemporary and classical traditions. The texts were collected in Microsoft Word and converted into UTF-8 normalized plain text for computational and linguistic research, including corpus linguistics, digital humanities, and NLP.
-</Description>
+                <Description>The Dari Literature Corpus (Anjuman e Adabi Nayestan) is a curated collection of written Dari (Afghan Persian) literary texts totaling about 1 million tokens. It includes prose, poetry, folklore-inspired narratives, and other culturally significant writings from both contemporary and classical traditions. The texts were collected in Microsoft Word and converted into UTF-8 normalized plain text for computational and linguistic research, including corpus linguistics, digital humanities, and NLP.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Aim Foundation</Organisation>
                 <DistributionType>PUB</DistributionType>

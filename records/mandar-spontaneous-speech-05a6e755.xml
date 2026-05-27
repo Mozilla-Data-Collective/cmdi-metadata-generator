@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Mandar Spontaneous Speech</Name>
                 <Title>Mandar Spontaneous Speech</Title>
-                <Description>Mandar Spontaneous Speech is a representative dataset of the Mandar language and contains a variety of dialects, particularly those used in Majene and Polewali Mandar. It also includes Mandar–Indonesian code-switching varieties that reflect both traditional and modern forms of speech. This dataset can be used for linguistic research, cultural documentation, urban sociolinguistic studies, and the development of language technologies based on regional languages with Indonesian code-mixing.
-</Description>
+                <Description>Mandar Spontaneous Speech is a representative dataset of the Mandar language and contains a variety of dialects, particularly those used in Majene and Polewali Mandar. It also includes Mandar–Indonesian code-switching varieties that reflect both traditional and modern forms of speech. This dataset can be used for linguistic research, cultural documentation, urban sociolinguistic studies, and the development of language technologies based on regional languages with Indonesian code-mixing.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>

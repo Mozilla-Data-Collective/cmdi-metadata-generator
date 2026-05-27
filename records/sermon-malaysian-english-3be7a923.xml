@@ -32,7 +32,7 @@
                 <Description>This is a 7 minute mp4 file of a sermon. 
 There is also a txt file of the original sermon text, and an srt file generated with Descript, that adds time stamps at 5 second intervals. 
 The speaker is male, age 30s, Malaysian accent.
-There is very little/no background noise. </Description>
+There is very little/no background noise.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Mozilla Data Collective</Organisation>
                 <DistributionType>PUB</DistributionType>

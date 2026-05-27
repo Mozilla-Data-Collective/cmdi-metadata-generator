@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>IBT Torwali Literature Corpus</Name>
                 <Title>IBT Torwali Literature Corpus</Title>
-                <Description>The IBT Torwali Literature Corpus by is a text dataset of about 233,000 tokens from multiple literary and cultural domains, including poetry, folktales, biographies, educational materials, religious translations, and other literary texts. It contains 21 UTF-8 encoded text files and is useful for language preservation and NLP research.
-</Description>
+                <Description>The IBT Torwali Literature Corpus by is a text dataset of about 233,000 tokens from multiple literary and cultural domains, including poetry, folktales, biographies, educational materials, religious translations, and other literary texts. It contains 21 UTF-8 encoded text files and is useful for language preservation and NLP research.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Collaborative Action For Research &amp; Development (CARD)</Organisation>
                 <DistributionType>PUB</DistributionType>

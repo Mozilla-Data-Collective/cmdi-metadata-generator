@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Kituba-TTS-Dataset</Name>
                 <Title>Kituba-TTS-Dataset</Title>
-                <Description>Paired audio and text data on Kituba (mkw), a language spoken in Congo. The audio corpus consists of 8,302 clips read by one speaker, totalling 350 min 11.98 sec. The dataset also contains a mapping file of audio and text with 8,173 lines. Each line begins with the name of an audio file, followed by a tab and then the corresponding text excerpt. This dataset is suitable for TTS tasks.
-</Description>
+                <Description>Paired audio and text data on Kituba (mkw), a language spoken in Congo. The audio corpus consists of 8,302 clips read by one speaker, totalling 350 min 11.98 sec. The dataset also contains a mapping file of audio and text with 8,173 lines. Each line begins with the name of an audio file, followed by a tab and then the corresponding text excerpt. This dataset is suitable for TTS tasks.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Institute of African Digital Humanities</Organisation>
                 <DistributionType>PUB</DistributionType>

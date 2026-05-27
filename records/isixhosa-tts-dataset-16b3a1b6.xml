@@ -33,8 +33,7 @@
 
 The audio clips are short, typically ranging from 1 to 13 seconds, and are suitable for training and evaluating Text-to-Speech (TTS) systems. The dataset follows a structured format where each audio file is paired with its corresponding transcription in a tab-separated mapping file.
 
-The textual content used in this dataset originates from written isiXhosa sources published on the indigenous-language blogging platform IndigenousBlogs (https://indigenousblogs.com/xh/), which hosts original content authored by isiXhosa-speaking bloggers across a range of topics, including narrative texts, opinion pieces, cultural commentary, and everyday informational content. These texts were segmented into short utterances suitable for read speech and TTS modelling.
-</Description>
+The textual content used in this dataset originates from written isiXhosa sources published on the indigenous-language blogging platform IndigenousBlogs (https://indigenousblogs.com/xh/), which hosts original content authored by isiXhosa-speaking bloggers across a range of topics, including narrative texts, opinion pieces, cultural commentary, and everyday informational content. These texts were segmented into short utterances suitable for read speech and TTS modelling.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Institute of African Digital Humanities</Organisation>
                 <DistributionType>PUB</DistributionType>

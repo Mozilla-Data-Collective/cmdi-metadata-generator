@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Araina Text Corpus (Occitan Aranese)</Name>
                 <Title>Araina Text Corpus (Occitan Aranese)</Title>
-                <Description>This text corpus includes sentences from three sources. Public domain literary texts translated by Antòni Nogués. Sourced from institutestudisaranesi.cat, Language educational material by Jordi Suïls Subirà, Administrative proceedings from Conselh Generau d'Aran. </Description>
+                <Description>This text corpus includes sentences from three sources. Public domain literary texts translated by Antòni Nogués. Sourced from institutestudisaranesi.cat, Language educational material by Jordi Suïls Subirà, Administrative proceedings from Conselh Generau d'Aran.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>

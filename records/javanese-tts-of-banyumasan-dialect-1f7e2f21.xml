@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Javanese TTS of Banyumasan Dialect</Name>
                 <Title>Javanese TTS of Banyumasan Dialect</Title>
-                <Description>This dataset comprises speech data produced by a speaker of the Banyumasan dialect of Javanese (locally known as Ngapak), Central Java Province, Indonesia. All datasets use the informal register (Ngoko) and include various topics.
-</Description>
+                <Description>This dataset comprises speech data produced by a speaker of the Banyumasan dialect of Javanese (locally known as Ngapak), Central Java Province, Indonesia. All datasets use the informal register (Ngoko) and include various topics.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>

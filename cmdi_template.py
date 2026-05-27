@@ -142,12 +142,21 @@ def fill_template(dataset_info):
 	for locale in dataset_info['locale'].split(','):
 		if '-' in locale:
 			locale = locale.split('-')[0]
-		lang = iso639.Language.match(locale)
-		locales.append(lang.part3)
+		try:
+			lang = iso639.Language.match(locale)
+			locales.append(lang.part3)
+		except:
+			pass
 	
 	locale_tags = ""
-	for locale in locales:
+	if len(locales) == 0:
+
+		locale = "zxx" # No linguistic content
 		locale_tags += TEMPLATE_ISO.replace('{aaa}', locale)
+	else:
+		for locale in locales:
+			locale_tags += TEMPLATE_ISO.replace('{aaa}', locale)
+
 	dataset_record = dataset_record.replace('{ISO}', locale_tags.strip())
 	
 	

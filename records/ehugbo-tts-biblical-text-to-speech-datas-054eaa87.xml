@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Ehugbo TTS: biblical text to speech dataset in Ehugbo Language</Name>
                 <Title>Ehugbo TTS: biblical text to speech dataset in Ehugbo Language</Title>
-                <Description>This dataset contains audio recordings of Bible verses in Ehugbo, a dialect of Igbo (a Niger-Congo language spoken in Nigeria). It contains 312 audio recordings of biblical text-to-speech data comprising 1 hour and 30 seconds of speech data. </Description>
+                <Description>This dataset contains audio recordings of Bible verses in Ehugbo, a dialect of Igbo (a Niger-Congo language spoken in Nigeria). It contains 312 audio recordings of biblical text-to-speech data comprising 1 hour and 30 seconds of speech data.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>NaijaVoices (Lanfrica Labs)</Organisation>
                 <DistributionType>PUB</DistributionType>

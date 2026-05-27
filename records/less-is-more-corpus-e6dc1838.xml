@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Less is More Corpus</Name>
                 <Title>Less is More Corpus</Title>
-                <Description>This repository contains the dataset associated with the paper "Less is More? The Role of Demographic Author Information in Emotion Classification of Ambiguous Text". Emotion annotation is inherently subjective, often resulting in low agreement between annotators. </Description>
+                <Description>This repository contains the dataset associated with the paper "Less is More? The Role of Demographic Author Information in Emotion Classification of Ambiguous Text". Emotion annotation is inherently subjective, often resulting in low agreement between annotators.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>University of Bamberg</Organisation>
                 <DistributionType>PUB</DistributionType>

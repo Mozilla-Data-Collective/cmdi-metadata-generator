@@ -1,6 +1,8 @@
 import cmdi_template
-import datacollective, requests, sys, datetime, math, os
+import datacollective, requests, sys, datetime, math, os, glob
 import xml.etree.ElementTree as ET
+
+RECORDS_DIR = 'records/'
 
 def estimate_end(last, now, window_len, current, total):
 	# get n secs per dataset, multiply by datasets pending	
@@ -21,14 +23,19 @@ if len(sys.argv) == 3 and sys.argv[1] == '-s':
 	dataset_info = datacollective.get_dataset_details(dataset_id)
 	
 	dataset_record = cmdi_template.fill_template(dataset_info)
+	print(dataset_record)
 	sys.exit(0)
 elif len(sys.argv) != 1:
 	print('Usage: generate-cmdi.py [-s DATASET_ID_OR_SLUG]')
 	sys.exit(-1)
 	
 
-os.makedirs('records/',exist_ok=True)
+os.makedirs(RECORDS_DIR,exist_ok=True)
+
+existing_records = [i.split('/')[1].replace('.xml','') for i in glob.glob(RECORDS_DIR + '/*.xml')]
+
 total_datasets = 0 
+print('Found %d existing records' % (len(existing_records)))
 for url in root.findall('ns:url', namespace):
 	loc = url.findall('ns:loc', namespace)[0]
 	if '/datasets/' in loc.text:
@@ -37,6 +44,7 @@ for url in root.findall('ns:url', namespace):
 found_datasets = 0
 secs = datetime.timedelta(seconds=0)
 last = datetime.datetime.now()
+found_records = []
 for url in root.findall('ns:url', namespace):
 	loc = url.findall('ns:loc', namespace)[0]
 	if '/datasets/' in loc.text:
@@ -44,13 +52,18 @@ for url in root.findall('ns:url', namespace):
 		dataset_info = datacollective.get_dataset_details(dataset_id)
 		
 		dataset_record = cmdi_template.fill_template(dataset_info)
+		filename_xml = RECORDS_DIR + dataset_info['slug'] + '.xml'
 
-		fd = open('records/' + dataset_info['slug'] + '.xml', 'w+')
-	
+		fd = open(filename_xml, 'w+')
 		print(dataset_record.strip(), file=fd)
-	
 		fd.close()
 
+		if found_datasets % 5 == 0:
+			now = datetime.datetime.now()
+			secs = estimate_end(last, now, 5, found_datasets, total_datasets)			
+			last = now
+
+		found_records.append(dataset_info['slug'])
 		found_datasets+=1
 		zf = len(str(total_datasets))
 		pc = int((found_datasets/total_datasets)*100)
@@ -58,3 +71,16 @@ for url in root.findall('ns:url', namespace):
 		#prog = '%s/%s' % (str(found_datasets).zfill(zf), str(total_datasets).zfill(zf)) 
 		print('\b' * len(prog)+ prog, file=sys.stderr, end='')
 		sys.stderr.flush()
+
+print()
+missing_records = set(existing_records) - set(found_records)
+
+removed = 0
+for record in missing_records:
+	def rn(record):
+		return RECORDS_DIR + '/' + record + '.xml'
+	os.rename(rn(record), rn(record) + '.REMOVED')
+	removed += 1
+
+if removed > 0:
+	print(f'Marked {removed} records for removal, remember to delete them manually: rm {RECORDS_DIR}/*.REMOVED')

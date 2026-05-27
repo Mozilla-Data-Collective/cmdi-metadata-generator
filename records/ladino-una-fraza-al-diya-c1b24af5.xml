@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Ladino: Una Fraza al Diya</Name>
                 <Title>Ladino: Una Fraza al Diya</Title>
-                <Description>"Una fraza al diya" (A Phrase a Day) is a Ladino language learning dataset prepared by Karen Sarhon of the Sephardic Center of Istanbul (SKAD). It consists of 307 sentences in Ladino (Judeo-Spanish) with parallel translations in Spanish, Turkish, and English. The sentences and images were originally published on SKAD's Instagram account (@sephardiccenteristanbul) and extracted using OCR. Audio recordings come from the accompanying web initiative (https://sefarad.com.tr/judeo-espanyolladino/frazadeldia/). The dataset was structured by Col·lectivaT as part of a project to support Ladino in the digital age. </Description>
+                <Description>"Una fraza al diya" (A Phrase a Day) is a Ladino language learning dataset prepared by Karen Sarhon of the Sephardic Center of Istanbul (SKAD). It consists of 307 sentences in Ladino (Judeo-Spanish) with parallel translations in Spanish, Turkish, and English. The sentences and images were originally published on SKAD's Instagram account (@sephardiccenteristanbul) and extracted using OCR. Audio recordings come from the accompanying web initiative (https://sefarad.com.tr/judeo-espanyolladino/frazadeldia/). The dataset was structured by Col·lectivaT as part of a project to support Ladino in the digital age.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>

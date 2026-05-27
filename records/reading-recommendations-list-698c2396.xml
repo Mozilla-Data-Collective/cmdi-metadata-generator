@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Reading Recommendations List</Name>
                 <Title>Reading Recommendations List</Title>
-                <Description>A reading recommendations list of 249 fiction (fantasy, literary, mystery) books read by a single individual in her early-thirties. The data was pulled from the individual's StoryGraph account. </Description>
+                <Description>A reading recommendations list of 249 fiction (fantasy, literary, mystery) books read by a single individual in her early-thirties. The data was pulled from the individual's StoryGraph account.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Christine</Organisation>
                 <DistributionType>PUB</DistributionType>

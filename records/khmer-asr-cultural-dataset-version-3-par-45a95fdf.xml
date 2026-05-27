@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Khmer ASR Cultural Dataset (Version 3 - Part 7)</Name>
                 <Title>Khmer ASR Cultural Dataset (Version 3 - Part 7)</Title>
-                <Description>81.01 hours of manually curated speech-text pairs by native speakers in the Khmer language about Cambodian cultural topics. On average, each recording is 8 seconds. Speaker metadata (gender, age group, and origin city) is provided. </Description>
+                <Description>81.01 hours of manually curated speech-text pairs by native speakers in the Khmer language about Cambodian cultural topics. On average, each recording is 8 seconds. Speaker metadata (gender, age group, and origin city) is provided.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>DDD-Cambodia</Organisation>
                 <DistributionType>PUB</DistributionType>

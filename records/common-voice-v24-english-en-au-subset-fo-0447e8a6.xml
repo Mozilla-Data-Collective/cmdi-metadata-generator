@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Common Voice v24 English - en-AU subset for Everything Open 2026</Name>
                 <Title>Common Voice v24 English - en-AU subset for Everything Open 2026</Title>
-                <Description>This is a subset of Common Voice v24 English filtered for Australian-clustered accents. It is designed to be used in conjunction with the hands-on Tutorial delivered at Everything Open 2026 in Canberra, Australia. </Description>
+                <Description>This is a subset of Common Voice v24 English filtered for Australian-clustered accents. It is designed to be used in conjunction with the hands-on Tutorial delivered at Everything Open 2026 in Canberra, Australia.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>Common Voice</Organisation>
                 <DistributionType>PUB</DistributionType>

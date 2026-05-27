@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>VoxForge - Bulgarian</Name>
                 <Title>VoxForge - Bulgarian</Title>
-                <Description>1 hour of read speech and transcriptions in Bulgarian. </Description>
+                <Description>1 hour of read speech and transcriptions in Bulgarian.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community Concierge</Organisation>
                 <DistributionType>PUB</DistributionType>

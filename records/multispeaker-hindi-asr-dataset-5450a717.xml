@@ -29,8 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Multispeaker Hindi ASR Dataset</Name>
                 <Title>Multispeaker Hindi ASR Dataset</Title>
-                <Description>This dataset consists of Hindi audio recordings paired with their corresponding text transcriptions. It includes a variety of speech samples that may cover different speakers, accents, speaking styles, and recording conditions, reflecting real-world audio diversity. The dataset is suitable for tasks such as automatic speech recognition (ASR), speech-to-text modeling, and language processing. It can be used for training and evaluating models in speech recognition, transcription accuracy, and related natural language processing applications.
-</Description>
+                <Description>This dataset consists of Hindi audio recordings paired with their corresponding text transcriptions. It includes a variety of speech samples that may cover different speakers, accents, speaking styles, and recording conditions, reflecting real-world audio diversity. The dataset is suitable for tasks such as automatic speech recognition (ASR), speech-to-text modeling, and language processing. It can be used for training and evaluating models in speech recognition, transcription accuracy, and related natural language processing applications.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MirasAI</Organisation>
                 <DistributionType>PUB</DistributionType>

@@ -31,7 +31,7 @@
                 <Title>Heroes English-Spanish Dubbed Movie Speech Corpus</Title>
                 <Description>Heroes corpus contains mapped bilingual (English and Spanish) speech segments from the TV series Heroes. It contains 7000 single speaker speech segments extracted from the original and Spanish dubbed version of 21 episodes. Audio segments are accompanied with subtitle transcriptions and word-level prosodic/paralinguistic information. 
 
-Each episode directory contains word-level and segment-level information of the whole episode and also parallel samples extracted under segments_eng and segments_spa subdirectories. Each sample is stored as a wave audio file, text file and a csv file containing word timing information and word-level paralinguistic and prosodic features (speaker id, mean f0, mean intensity). </Description>
+Each episode directory contains word-level and segment-level information of the whole episode and also parallel samples extracted under segments_eng and segments_spa subdirectories. Each sample is stored as a wave audio file, text file and a csv file containing word timing information and word-level paralinguistic and prosodic features (speaker id, mean f0, mean intensity).</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>
