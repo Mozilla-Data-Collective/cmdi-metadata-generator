@@ -31,7 +31,7 @@
                 <Title>Gawri (گاؤری) Magazine Corpus</Title>
                 <Description>The Gawri (گاؤری) Magazine Corpus is a curated collection of monthly Gawri (گاؤری) magazine text drawn from a periodical magazine, totaling approximately 67,724 tokens. It reflects contemporary community writing across recurring magazine sections and provides a natural sample of edited, publishable Gawri prose and poetyr. The corpus is intended to support linguistic research, language technology development  and language documentation.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Collaborative Action For Research & Development (CARD)</Organisation>
+                <Organisation>Collaborative Action For Research &amp; Development (CARD)</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
 		<Format>text/plain</Format>

@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>Finweb-Edu-Chinese-v2.2</Name>
                 <Title>Finweb-Edu-Chinese-v2.2</Title>
-                <Description>Fineweb-Edu-Chinese v2.2 is the updated Fineweb-derived dataset of refined Chinese educational web content. It enhances content quality and expands education-stage coverage, fitting education-focused LLM training & educational AI tools. Get the dataset at www.opencsg.com.</Description>
+                <Description>Fineweb-Edu-Chinese v2.2 is the updated Fineweb-derived dataset of refined Chinese educational web content. It enhances content quality and expands education-stage coverage, fitting education-focused LLM training &amp; educational AI tools. Get the dataset at www.opencsg.com.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>OpenCSG</Organisation>
                 <DistributionType>PUB</DistributionType>

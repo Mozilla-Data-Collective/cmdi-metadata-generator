@@ -31,7 +31,7 @@
                 <Title>Cross Agency Federal Violations by Company</Title>
                 <Description>Multi-Agency Federal Enforcement: U.S. Companies Cited by 2+ Federal Agencies
 
-What separates a company that had a one-off OSHA citation from one with systemic compliance problems? Cross-agency violations. When the same company shows up in OSHA's inspection database AND the Wage & Hour Division's enforcement records AND EPA's environmental actions, that's a pattern worth flagging.
+What separates a company that had a one-off OSHA citation from one with systemic compliance problems? Cross-agency violations. When the same company shows up in OSHA's inspection database AND the Wage &amp; Hour Division's enforcement records AND EPA's environmental actions, that's a pattern worth flagging.
 
 This dataset surfaces every U.S. employer with enforcement records from two or more federal regulators, cross-referenced via FastDOL's deterministic entity resolution.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>

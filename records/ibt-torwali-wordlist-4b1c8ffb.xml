@@ -31,7 +31,7 @@
                 <Title>IBT Torwali Wordlist</Title>
                 <Description>The IBT Torwali Wordlist contains approximately 20,000 unique entries in Torwali (ISO 639-3: trw), an under-documented Indo-Aryan language spoken in northern Pakistan. The dataset comprises standardized lexical entries covering core vocabulary, function words, and culturally salient terms, with consistent orthography and normalization suitable for linguistic and computational use. Entries are aligned with English and Urdu glosses, and include part-of-speech tag.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
-                <Organisation>Collaborative Action For Research & Development (CARD)</Organisation>
+                <Organisation>Collaborative Action For Research &amp; Development (CARD)</Organisation>
                 <DistributionType>PUB</DistributionType>
                 <PublicationYear>2026</PublicationYear>
 		<Format>text/csv</Format>

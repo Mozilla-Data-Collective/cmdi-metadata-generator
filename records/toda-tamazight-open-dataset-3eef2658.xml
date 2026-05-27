@@ -29,7 +29,7 @@
             <CLARIN-D-metadata>
                 <Name>TODa: Tamazight Open Dataset</Name>
                 <Title>TODa: Tamazight Open Dataset</Title>
-                <Description>Welcome to the Tamazight Open Dataset (TODa), a groundbreaking open-source project dedicated to preserving and advancing the Tamazight language. With its extensive collection of linguistic data, TODa stands as a pioneering collaborative project for Tamazight <=> Englis translation, specifically designed for Natural Language Processing applications.
+                <Description>Welcome to the Tamazight Open Dataset (TODa), a groundbreaking open-source project dedicated to preserving and advancing the Tamazight language. With its extensive collection of linguistic data, TODa stands as a pioneering collaborative project for Tamazight &lt;=&gt; Englis translation, specifically designed for Natural Language Processing applications.
 
 TODa's unique approach combines both semantic and syntactic categorization methods, offering a rich representation of words in their various contexts and forms. The dataset encompasses a comprehensive collection of linguistic elements, including detailed verb conjugations across different tenses, noun variations, and an extensive compilation of translated expressions that capture the language's nuances.
 
@@ -37,9 +37,7 @@ What sets TODa apart is its inclusive approach to Tamazight's writing systems. T
 
 Our vision is to establish TODa as the cornerstone resource for Tamazight Natural Language Processing. Through this meticulously curated dataset, we strive to empower developers and researchers to create innovative NLP solutions that authentically serve the Amazigh-speaking community.
 
-We take pride in our current progress, yet acknowledge that language documentation is an evolving journey. We actively encourage participation from the Amazigh technology community to contribute their expertise in expanding and refining the dataset. Through collaborative effort, we can create a robust foundation for technological innovations that honor and advance Amazigh linguistic heritage.
-
-</Description>
+We take pride in our current progress, yet acknowledge that language documentation is an evolving journey. We actively encourage participation from the Amazigh technology community to contribute their expertise in expanding and refining the dataset. Through collaborative effort, we can create a robust foundation for technological innovations that honor and advance Amazigh linguistic heritage.</Description>
                 <ResourceClass>resourceBundle</ResourceClass>
                 <Organisation>MDC Community</Organisation>
                 <DistributionType>PUB</DistributionType>
