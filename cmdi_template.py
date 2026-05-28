@@ -1,10 +1,16 @@
-import iso639
+import iso639, sys
 
 LICENCE_TO_URL = {
 'Onshape':'https://www.onshape.com/en/legal/',
 'libribox':'https://librivox.org/pages/public-domain/',
 'Etalab 2.0':'https://www.data.gouv.fr/pages/legal/licences/etalab-2.0',
 'common-crawl-tou':'https://commoncrawl.org/terms-of-use'
+}
+
+ISO639_FIXES = {
+'gr': 'el',
+'phi': 'mul',
+'jav': 'jv'
 }
 
 FORMAT_TO_MIME = {
@@ -164,6 +170,9 @@ def fill_template(dataset_info):
 	for locale in dataset_info['locale'].split(','):
 		if '-' in locale:
 			locale = locale.split('-')[0]
+		if locale in ISO639_FIXES:
+			locale = ISO639_FIXES[locale]
+		locale = locale.lower()
 		try:
 			lang = iso639.Language.match(locale)
 			locales.append(lang.part3)
