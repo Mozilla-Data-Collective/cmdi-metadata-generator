@@ -4,7 +4,8 @@ LICENCE_TO_URL = {
 'Onshape':'https://www.onshape.com/en/legal/',
 'libribox':'https://librivox.org/pages/public-domain/',
 'Etalab 2.0':'https://www.data.gouv.fr/pages/legal/licences/etalab-2.0',
-'common-crawl-tou':'https://commoncrawl.org/terms-of-use'
+'common-crawl-tou':'https://commoncrawl.org/terms-of-use',
+'NOODL-1.0':'https://licensingafricandatasets.com/nwulite-obodo-license'
 }
 
 ISO639_FIXES = {
