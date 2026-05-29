@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmpr2sd43014knv07mpsae5yf</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <ResourceBasicInfo>
+            <Name>KerOfis toponymic database Breton-French</Name>
+            <Title>KerOfis toponymic database Breton-French</Title>
+            <Description>KerOfis is a database of toponyms. It aims to provide the correct forms of Breton place names. 
+
+The database also contains the Breton forms of foreign place names, such as the names of states, countries, regions, seas, rivers and mountains, as well as the administrative names of Brittany (departments, regions, communities of municipalities, metropolitan areas, etc.).
+
+The database is managed by the OPAB (Ofis Publik ar Brezhoneg, the Public Office for the Breton Language) and is constantly updated. The version available here is dated 13 January 2025.
+
+KerOfis can be accessed at the following address: https://niverel.brezhoneg.bzh/br/kerofis/
+
+  
+About the breton language :
+Breton (Brezhoneg) is the only Celtic language spoken on the continent. It belongs to the Brittonic branch of the Celtic languages, like Welsh and Cornish. Breton is classified as "severely endangered" by the UNESCO Atlas of the World's Languages in Danger. The language declined from more than one million speakers around 1950 to less than 200 000 in 2024. After a period of intense protest that began in the 1960s, Breton gradually regained a place in schools, on road signs, then in the media, public life in general, and more recently in digital technology. Approximately 20 000 pupils attend Breton bilingual classes, either in the Diwan network (immersive teaching) or in bilingual classes in public and catholic school systems.</Description>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>Ofis publik ar Brezhoneg (OPAB)</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>text/csv</Format>
+            <ISO639>
+                <iso-639-3-code>bre</iso-639-3-code>
+            </ISO639>
+
+            <ISO639>
+                <iso-639-3-code>fra</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>ODbL-1.0</identifier>
+                <label>Open Data Commons Open Database License v1.0 (ODbL-1.0)</label>
+                <url>https://spdx.org/licenses/ODbL-1.0.html</url>
+            </Licence>
+        </ResourceBasicInfo>
+    </cmd:Components>
+</cmd:CMD>
