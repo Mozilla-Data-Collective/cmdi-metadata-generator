@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmpzgijrk001cnx0732jcpyc9</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <ResourceBasicInfo>
+            <Name>OSHA Severe Injuries by Employer 2015-2025 </Name>
+            <Title>OSHA Severe Injuries by Employer 2015-2025 </Title>
+            <Description>This dataset covers every U.S. employer with at least one severe injury report filed under OSHA's mandatory 24-hour reporting rule (29 CFR 1904.39) since 2015. Each row is one employer with aggregated counts of hospitalizations, amputations, and eye losses, plus the rate at which those reports triggered follow-up inspections. The dataset includes the most common event type, body part, and injury nature per employer, enforcement context (total OSHA violations, penalties, willful citations, and fatalities), and cross-agency indicators showing which employers also have records at WHD, MSHA, NLRB, EPA, and other federal agencies. Source data comes from OSHA's Severe Injury Report database, linked to FastDOL's multi-agency entity resolution pipeline covering 2.3 million employer profiles. Canonical home: https://www.fastdol.com/datasets/osha-severe-injuries-by-employer</Description>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>fastdol.com</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>text/csv</Format>
+            <ISO639>
+                <iso-639-3-code>eng</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>CC-BY-4.0</identifier>
+                <label>Creative Commons Attribution 4.0 International (CC-BY-4.0)</label>
+                <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+            </Licence>
+        </ResourceBasicInfo>
+    </cmd:Components>
+</cmd:CMD>
