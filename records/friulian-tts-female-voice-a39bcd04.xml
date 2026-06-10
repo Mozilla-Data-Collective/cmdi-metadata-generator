@@ -40,6 +40,9 @@ The archive includes .webm audio files together with a metadata TSV with transcr
             <Format>text/tab-separated-values</Format>
 
             <Format>text/plain</Format>
+            
+            <Keyword>text to speech</Keyword>
+
             <ISO639>
                 <iso-639-3-code>fur</iso-639-3-code>
             </ISO639>

@@ -36,6 +36,9 @@
             <Format>audio/mpeg</Format>
 
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>machine translation</Keyword>
+
             <ISO639>
                 <iso-639-3-code>spa</iso-639-3-code>
             </ISO639>

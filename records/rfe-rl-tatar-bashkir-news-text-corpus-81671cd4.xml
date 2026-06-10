@@ -36,6 +36,9 @@ Spanning from December 2001 to December 2025, the corpus contains over 105,000 u
             <DistributionType>PUB</DistributionType>
             <PublicationYear>2026</PublicationYear>
             <Format>text/plain</Format>
+            
+            <Keyword>natural language processing</Keyword>
+
             <ISO639>
                 <iso-639-3-code>tat</iso-639-3-code>
             </ISO639>

@@ -36,6 +36,9 @@
             <Format>text/plain</Format>
 
             <Format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</Format>
+            
+            <Keyword>natural language processing</Keyword>
+
             <ISO639>
                 <iso-639-3-code>rhg</iso-639-3-code>
             </ISO639>

@@ -36,6 +36,9 @@ The sentences are provided with the aim that they promote the development of off
             <DistributionType>PUB</DistributionType>
             <PublicationYear>2026</PublicationYear>
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>natural language processing</Keyword>
+
             <ISO639>
                 <iso-639-3-code>cat</iso-639-3-code>
             </ISO639>

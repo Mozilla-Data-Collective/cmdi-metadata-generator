@@ -37,6 +37,9 @@ This dataset can be utilized for linguistic research, the development of automat
             <Format>video/webm</Format>
 
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>text to speech</Keyword>
+
             <ISO639>
                 <iso-639-3-code>ban</iso-639-3-code>
             </ISO639>

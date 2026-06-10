@@ -42,6 +42,9 @@ More broadly, the ALCAM-Bulu-MultimodalDataset exemplifies an approach to Africa
             <Format>audio/mpeg</Format>
 
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>natural language processing</Keyword>
+
             <ISO639>
                 <iso-639-3-code>bum</iso-639-3-code>
             </ISO639>

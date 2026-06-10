@@ -34,6 +34,9 @@
             <DistributionType>PUB</DistributionType>
             <PublicationYear>2026</PublicationYear>
             <Format>application/vnd.apache.parquet</Format>
+            
+            <Keyword>text to speech</Keyword>
+
             <ISO639>
                 <iso-639-3-code>chv</iso-639-3-code>
             </ISO639>

@@ -38,6 +38,9 @@ The texts were published between 1884 and 1964, and are in the public domain. Th
             <Format>audio/wav</Format>
 
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>text to speech</Keyword>
+
             <ISO639>
                 <iso-639-3-code>eng</iso-639-3-code>
             </ISO639>

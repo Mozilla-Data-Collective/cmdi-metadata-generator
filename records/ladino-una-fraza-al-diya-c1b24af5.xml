@@ -38,6 +38,9 @@
             <Format>image/jpeg</Format>
 
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>natural language processing</Keyword>
+
             <ISO639>
                 <iso-639-3-code>lad</iso-639-3-code>
             </ISO639>

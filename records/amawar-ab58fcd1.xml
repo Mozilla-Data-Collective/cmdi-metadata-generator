@@ -41,6 +41,9 @@ Amhaoui, N. (2023). Computerized Dictionary of the Meanings of Amazigh Nouns and
             <DistributionType>PUB</DistributionType>
             <PublicationYear>2026</PublicationYear>
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>machine translation</Keyword>
+
             <ISO639>
                 <iso-639-3-code>rif</iso-639-3-code>
             </ISO639>

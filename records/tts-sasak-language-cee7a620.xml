@@ -42,6 +42,9 @@ Open for any collaboration in NLP of Sasak language and Indonesian.</Description
             <Format>video/webm</Format>
 
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>text to speech</Keyword>
+
             <ISO639>
                 <iso-639-3-code>sas</iso-639-3-code>
             </ISO639>

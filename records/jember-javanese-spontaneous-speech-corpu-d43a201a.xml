@@ -36,6 +36,9 @@
             <Format>audio/mpeg</Format>
 
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>speech recognition</Keyword>
+
             <ISO639>
                 <iso-639-3-code>jav</iso-639-3-code>
             </ISO639>

@@ -36,6 +36,9 @@
             <Format>audio/wav</Format>
 
             <Format>application/json</Format>
+            
+            <Keyword>speech recognition</Keyword>
+
             <ISO639>
                 <iso-639-3-code>zgh</iso-639-3-code>
             </ISO639>

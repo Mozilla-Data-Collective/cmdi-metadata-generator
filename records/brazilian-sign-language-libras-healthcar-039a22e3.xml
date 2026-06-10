@@ -18,7 +18,7 @@
         <cmd:ResourceProxyList>
             <cmd:ResourceProxy id="ID001">
                 <cmd:ResourceType>LandingPage</cmd:ResourceType>
-                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmpzkqaqu0065nv070bdv5hfj</cmd:ResourceRef>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmq16k8qa01bvnr07i2x92yry</cmd:ResourceRef>
             </cmd:ResourceProxy>
         </cmd:ResourceProxyList>
         <cmd:JournalFileProxyList />
@@ -26,31 +26,25 @@
     </cmd:Resources>
     <cmd:Components>
         <ResourceBasicInfo>
-            <Name>TermOfis terminology database Breton-French</Name>
-            <Title>TermOfis terminology database Breton-French</Title>
-            <Description>TermOfis is a terminology database for the breton language.
-
-The database consists mainly of technical terms that are often absent or rarely found in general dictionaries, but which relate to specific fields of use, such as science, administration or ecology.
-
-The database is managed by the OPAB (Ofis Publik ar Brezhoneg, the Public Office for the Breton Language) and is constantly updated. The version available here is dated 22 May 2026.
-
-TermOfis can be accessed at the following address: https://www.brezhoneg.bzh/87-termofis.htm
-
-Glossaries are also published regularly and are available here : https://www.brezhoneg.bzh/100-geriaouegi.htm
-  
-About the breton language :
-Breton (Brezhoneg) is the only Celtic language spoken on the continent. It belongs to the Brittonic branch of the Celtic languages, like Welsh and Cornish. Breton is classified as "severely endangered" by the UNESCO Atlas of the World's Languages in Danger. The language declined from more than one million speakers around 1950 to less than 200 000 in 2024. After a period of intense protest that began in the 1960s, Breton gradually regained a place in schools, on road signs, then in the media, public life in general, and more recently in digital technology. Approximately 20 000 pupils attend Breton bilingual classes, either in the Diwan network (immersive teaching) or in bilingual classes in public and catholic school systems.</Description>
+            <Name>Brazilian Sign Language (Libras) Healthcare Corpus</Name>
+            <Title>Brazilian Sign Language (Libras) Healthcare Corpus</Title>
+            <Description>The Brazilian Sign Language Health Dataset is a large-scale multimodal corpus developed to advance inclusive AI and accessibility research for Deaf communities in Brazil, with a focus on healthcare communication, including medical terminology, symptoms, preventive care, mental health, and clinical interactions, while maintaining an intersectional and gender-diverse approach. The dataset contains approximately 24.6 hours of Brazilian Sign Language (Libras) recordings collected across 44 participants and 16 structured recording sessions. The corpus includes more than 8,000 annotated video segments aligned with subtitles, gloss annotations, elicitation prompts, and metadata tables designed for multimodal AI research workflows and combines segmented video recordings, subtitle files, prompt metadata, technical recording metadata, and linguistic annotations, and is designed to support research and innovation in Automatic Sign Language Recognition (ASLR), Sign Language Translation (SLT), and multimodal AI systems, while also enabling downstream tasks such as subtitle alignment, gloss prediction, gesture segmentation, temporal localisation, and non-manual feature analysis.</Description>
             <ResourceClass>resourceBundle</ResourceClass>
-            <Organisation>Ofis publik ar Brezhoneg (OPAB)</Organisation>
+            <Organisation>MDC Datasets</Organisation>
             <DistributionType>PUB</DistributionType>
             <PublicationYear>2026</PublicationYear>
-            <Format>text/csv</Format>
+            <Format>video/mp4</Format>
+
+            <Format>text/plain; charset=utf-8</Format>
+
+            <Format>application/json</Format>
+            
             <ISO639>
-                <iso-639-3-code>bre</iso-639-3-code>
+                <iso-639-3-code>bzs</iso-639-3-code>
             </ISO639>
 
             <ISO639>
-                <iso-639-3-code>fra</iso-639-3-code>
+                <iso-639-3-code>por</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC-BY-NC-SA-4.0</identifier>

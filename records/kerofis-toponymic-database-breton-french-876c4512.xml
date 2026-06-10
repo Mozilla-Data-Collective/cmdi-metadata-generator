@@ -32,18 +32,13 @@
 
 The database also contains the Breton forms of foreign place names, such as the names of states, countries, regions, seas, rivers and mountains, as well as the administrative names of Brittany (departments, regions, communities of municipalities, metropolitan areas, etc.).
 
-The database is managed by the OPAB (Ofis Publik ar Brezhoneg, the Public Office for the Breton Language) and is constantly updated. The version available here is dated 13 January 2025.
-
-KerOfis can be accessed at the following address: https://niverel.brezhoneg.bzh/br/kerofis/
-
-  
-About the breton language :
-Breton (Brezhoneg) is the only Celtic language spoken on the continent. It belongs to the Brittonic branch of the Celtic languages, like Welsh and Cornish. Breton is classified as "severely endangered" by the UNESCO Atlas of the World's Languages in Danger. The language declined from more than one million speakers around 1950 to less than 200 000 in 2024. After a period of intense protest that began in the 1960s, Breton gradually regained a place in schools, on road signs, then in the media, public life in general, and more recently in digital technology. Approximately 20 000 pupils attend Breton bilingual classes, either in the Diwan network (immersive teaching) or in bilingual classes in public and catholic school systems.</Description>
+The database is managed by the OPAB (Ofis Publik ar Brezhoneg, the Public Office for the Breton Language) and is constantly updated. The version available here is dated 13 January 2025.</Description>
             <ResourceClass>resourceBundle</ResourceClass>
             <Organisation>Ofis publik ar Brezhoneg (OPAB)</Organisation>
             <DistributionType>PUB</DistributionType>
             <PublicationYear>2026</PublicationYear>
             <Format>text/csv</Format>
+            
             <ISO639>
                 <iso-639-3-code>bre</iso-639-3-code>
             </ISO639>

@@ -34,6 +34,9 @@
             <DistributionType>PUB</DistributionType>
             <PublicationYear>2026</PublicationYear>
             <Format>audio/mpeg</Format>
+            
+            <Keyword>speech recognition</Keyword>
+
             <ISO639>
                 <iso-639-3-code>hye</iso-639-3-code>
             </ISO639>

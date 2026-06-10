@@ -1,5 +1,21 @@
 import iso639, sys
 
+TASK_TO_SPELLOUT = {
+'ASR':'speech recognition',
+'CALL':'computer-aided language learning',
+'CV':'computer vision',
+'LLM':'large language modelling',
+'LM':'language modelling',
+'MT':'machine translation',
+'N/A':'',
+'NLG':'natural language generation',
+'NLP':'natural language processing',
+'NLU':'natural language understanding',
+'OTH':'',
+'RAG':'retrieval-augmented generation',
+'TTS':'text to speech'
+}
+
 LICENCE_TO_URL = {
 'Onshape':'https://www.onshape.com/en/legal/',
 'libribox':'https://librivox.org/pages/public-domain/',
@@ -24,6 +40,7 @@ FORMAT_TO_MIME = {
 'CONLL-2003': 'text/plain',             
 'csv': 'text/csv',
 'CSV': 'text/csv',
+'CVS': 'text/csv',
 'DOCX': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
 'FLAC': 'audio/flac',
 'GLTFwithDracocompression': 'model/gltf+json', 
@@ -98,6 +115,7 @@ TEMPLATE = """
             <DistributionType>{DistributionType0}</DistributionType>
             <PublicationYear>{PublicationYear0}</PublicationYear>
             {FORMAT}
+            {KEYWORDS}
             {ISO}
             <Licence>
                 <identifier>{LicenceIdentifier0}</identifier>
@@ -117,6 +135,10 @@ TEMPLATE_ISO = """
             <ISO639>
                 <iso-639-3-code>{aaa}</iso-639-3-code>
             </ISO639>
+"""
+
+TEMPLATE_KEYWORD = """
+            <Keyword>{KeyWord0}</Keyword>
 """
 
 def escape(s):
@@ -161,6 +183,12 @@ def fill_template(dataset_info):
 		format_ = format_.strip()
 		if format_ in FORMAT_TO_MIME:
 			formats.append(FORMAT_TO_MIME[format_])
+	
+	keyword_tags = ""
+	task = dataset_info['task'] 
+	if task in TASK_TO_SPELLOUT and TASK_TO_SPELLOUT[task] != '':
+		keyword_tags = TEMPLATE_KEYWORD.replace("{KeyWord0}", TASK_TO_SPELLOUT[task])
+	dataset_record = dataset_record.replace('{KEYWORDS}', keyword_tags)
 	
 	format_tags = ""
 	for format_ in formats:

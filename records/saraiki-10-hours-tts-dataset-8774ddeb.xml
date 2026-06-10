@@ -40,6 +40,9 @@ The dataset may also be useful for broader research in computational linguistics
             <Format>video/webm</Format>
 
             <Format>text/tab-separated-values</Format>
+            
+            <Keyword>text to speech</Keyword>
+
             <ISO639>
                 <iso-639-3-code>srk</iso-639-3-code>
             </ISO639>

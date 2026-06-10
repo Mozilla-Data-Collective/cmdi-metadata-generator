@@ -38,6 +38,9 @@ Special care has been taken to organize and clean the text data to improve usabi
             <DistributionType>PUB</DistributionType>
             <PublicationYear>2026</PublicationYear>
             <Format>text/plain</Format>
+            
+            <Keyword>natural language processing</Keyword>
+
             <ISO639>
                 <iso-639-3-code>mar</iso-639-3-code>
             </ISO639>
