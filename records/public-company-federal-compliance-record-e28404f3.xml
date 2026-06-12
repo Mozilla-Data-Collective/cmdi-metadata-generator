@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmq80dcwp00xrl20740m9o1k5</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <ResourceBasicInfo>
+            <Name>Public Company Federal Compliance Records — Q3 2026</Name>
+            <Title>Public Company Federal Compliance Records — Q3 2026</Title>
+            <Description>This is a mirror. Canonical home: https://www.fastdol.com/datasets/public-company-federal-compliance License: CC BY 4.0 Version DOI: 10.5281/zenodo.20613452 Concept DOI: 10.5281/zenodo.20031893 Download CSV: https://www.fastdol.com/datasets/public-company-federal-compliance/data.csv
+
+Visit the canonical page for the full schema, methodology, BibTeX citation, and most recent version.
+
+Public Company Federal Compliance Records — Q3 2026
+US workplace enforcement records joined to SEC parent-company financials for 103,974 establishments across 1,826 publicly traded companies.
+
+What this dataset is:
+This dataset joins federal workplace enforcement records with SEC parent-company financial data for 103,974 US establishments operated by 1,826 publicly traded companies. Each row is one establishment with its parent company's financial context attached.
+
+The joining is the point. OSHA inspection records, WHD wage cases, NLRB labor relations filings, and EPA environmental compliance are each available separately. SEC financial data is available separately. Joining them at the establishment level — with parent-company rollup applied — surfaces patterns that single-source searches miss.
+
+Source: fastdol.com.
+
+What's new in Q3:
+2.5× universe expansion. Q2 covered 42,302 establishments across 714 publicly traded parents. Q3 covers 103,974 / 1,826 — driven by broader CIK-to-establishment matching downstream of the SEC EDGAR ingest and parent_aliases work. Scope and methodology unchanged.
+Two new columns. risk_tier (LOW / MEDIUM / ELEVATED / HIGH) and risk_score (0–100) — the same composite values rendered on each establishment's FastDOL profile page.
+Risk distribution stays proportional to the expanded universe: 484 HIGH (0.47%), 5,580 ELEVATED (5.37%), 26,808 MEDIUM, 71,102 LOW. Methodology unchanged; the larger HIGH/ELEVATED absolute counts reflect coverage, not score inflation.
+Parent financial recency advanced from 2026-02-28 (Q2) to 2026-04-03 as more 2026-Q1 10-Ks landed in EDGAR.
+
+What's in the data:
+Establishment identity: name, city, state, ZIP, NAICS classification
+Parent identity: parent name, SEC CIK, ticker
+OSHA: inspections, violations, penalties, fatalities, hospitalizations, severe violator program flag, inspection-trigger breakdown
+WHD: cases, total back wages, employees affected
+NLRB: total cases, ULP cases, representation cases
+EPA: inspections, formal actions, non-compliance quarters, penalties, compliance status
+Parent financials (SEC): revenue, net income, total assets, facts-as-of date
+FastDOL artifacts: risk tier (LOW / MEDIUM / ELEVATED / HIGH), risk score, agency violation count, peer percentile
+Debarment: SAM.gov exclusion flag
+
+Findings to explore:
+NLRB concentration in utilities and logistics: Major utilities and logistics carriers cluster at unusually high per-establishment NLRB activity. Edison International concentrates 13,440 NLRB cases across 155 establishments — about 87 per establishment. PG&amp;E shows the same pattern with 26,792 cases across 326 establishments (~82 per establishment). United Parcel Service sits in the same density band at 94 cases per establishment (208,742 NLRB cases across 2,229 locations) — and dominates the dataset in absolute count by a wide margin.
+
+Fatality density vs. absolute count: Walmart has the highest absolute OSHA fatality count (154 across 4,482 establishments). Tyson Foods has 124 fatalities across only 576 establishments — roughly 6× Walmart's per-establishment fatality density, and substantially higher than any other major public company in the dataset.
+
+Restaurant chains skew toward wage cases: McDonald's Corporation has 1,307 WHD cases across 2,233 establishments — wage enforcement, not workplace safety, is the dominant federal enforcement axis for QSR. Yum Brands and Restaurant Brands International show similar profiles.
+
+Risk distribution: 484 establishments are flagged HIGH risk and 5,580 ELEVATED. The remaining 97,910 are LOW or MEDIUM. The HIGH/ELEVATED subset (5.8% of the data) is where most cross-agency patterns concentrate.
+
+Public-company debarments: 42 establishments in the dataset have public-company parents AND active SAM.gov federal contracting exclusions.
+
+Suggested use cases
+ESG analysis of public-company workplace enforcement records
+Financial research correlating compliance footprint with parent revenue or assets
+Workers' comp and casualty underwriting for public-company exposures
+ML feature engineering using risk scores and parent financials
+Investigative journalism on public-company labor and safety records
+Academic research on cross-agency enforcement patterns
+Loading the data
+import pandas as pd
+df = pd.read_csv('public_companies_federal_compliance_q3.csv',
+                 dtype={'naics_code': str})
+Methodology
+Federal enforcement data aggregated from OSHA IMIS, WHD WHISARD, NLRB case database, EPA ECHO, and SAM.gov. SEC parent linkage via CIK matching. Entity resolution uses normalized employer name, state, and ZIP. Parent-company rollup uses a curated seed table augmented with SEC CIK matches.
+
+1,985 unique parent legal-name variants correspond to 1,826 unique SEC CIKs. Some parents operate under multiple legal names that share a single SEC filer; cite the 1,826 number for unique entities.
+
+Counts reflect what federal agencies investigated and recorded; reporting practices vary by operator and industry.
+
+Findings reported descriptively. Aggregate analysis of public federal enforcement data; not a statement about any specific employer's current operations or future risk. Not legal, financial, or underwriting advice.
+
+About FastDOL
+FastDOL aggregates federal enforcement records from 15 US agencies into queryable employer profiles with entity resolution.
+
+Source: fastdol.com
+Methodology: fastdol.com/methodology
+API: fastdol.com/docs — free tier available
+Mirror on Kaggle: Public Company Federal Compliance Records
+Citation: FastDOL (2026), Public Company Federal Compliance Records (Q3 2026), fastdol.com</Description>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>fastdol.com</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>text/csv</Format>
+            
+            <ISO639>
+                <iso-639-3-code>eng</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>CC-BY-4.0</identifier>
+                <label>Creative Commons Attribution 4.0 International (CC-BY-4.0)</label>
+                <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+            </Licence>
+        </ResourceBasicInfo>
+    </cmd:Components>
+</cmd:CMD>

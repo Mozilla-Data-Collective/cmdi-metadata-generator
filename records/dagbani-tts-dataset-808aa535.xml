@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmd:CMD xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:cmd="http://www.clarin.eu/cmd/1"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+    xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1"
+    xmlns="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.clarin.eu/cmd/1 https://infra.clarin.eu/CMDI/1.x/xsd/cmd-envelop.xsd http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1778593302203 https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1778593302203/xsd"
+    CMDVersion="1.2">
+    <cmd:Header>
+        <cmd:MdCreator>Mozilla Data Collective</cmd:MdCreator>
+        <cmd:MdCreationDate>2006-05-04</cmd:MdCreationDate>
+        <!--<cmd:MdSelfLink>{SelfLink0}</cmd:MdSelfLink>--> 
+        <!-- TBD: A unique link to the CMDI record -->
+        <cmd:MdProfile>clarin.eu:cr1:p_1778593302203</cmd:MdProfile>
+        <cmd:MdCollectionDisplayName>Mozilla Data Collective</cmd:MdCollectionDisplayName>
+    </cmd:Header>
+    <cmd:Resources>
+        <cmd:ResourceProxyList>
+            <cmd:ResourceProxy id="ID001">
+                <cmd:ResourceType>LandingPage</cmd:ResourceType>
+                <cmd:ResourceRef>https://mozilladatacollective.com/datasets/cmq83m9h00145mk07g2kanq2s</cmd:ResourceRef>
+            </cmd:ResourceProxy>
+        </cmd:ResourceProxyList>
+        <cmd:JournalFileProxyList />
+        <cmd:ResourceRelationList />
+    </cmd:Resources>
+    <cmd:Components>
+        <ResourceBasicInfo>
+            <Name>Dagbani-TTS-Dataset</Name>
+            <Title>Dagbani-TTS-Dataset</Title>
+            <Description>This dataset comprises 2,488 high-quality audio recordings of read speech produced by a single Dagbani speaker over 16 sessions. Dagbani (ISO 639-3: dag), also known as Dagbane or Dagomba, is a Gur language of the Niger-Congo family spoken primarily in the Northern Region of Ghana, particularly in the Dagbon traditional area. It is the most widely spoken language in northern Ghana and serves as a lingua franca across the region. Despite being spoken by an estimated 3 to 4 million people, Dagbani remains severely under-resourced in terms of digital speech data, making this dataset a significant contribution to natural language processing efforts for the language.
+
+Audio files are provided in MP3 format (approx. 185 MB), totalling 4 hours, 2 minutes and 9 seconds of speech. The dataset includes 16 audio/sentence mapping files in TSV format, containing 2,488 aligned audio/sentence pairs in total. Transcriptions follow the standard Dagbani orthography as developed by the Dagbani Orthography Committee and used in published Dagbani materials.
+
+The recordings draw on a range of textual material in Dagbani, offering varied prosodic and lexical diversity for training and evaluating TTS and ASR models. The dataset is intended for research and scientific use in speech technology for Dagbani.</Description>
+            <ResourceClass>resourceBundle</ResourceClass>
+            <Organisation>Institute of African Digital Humanities</Organisation>
+            <DistributionType>PUB</DistributionType>
+            <PublicationYear>2026</PublicationYear>
+            <Format>audio/mpeg</Format>
+
+            <Format>text/tab-separated-values</Format>
+            
+            <Keyword>text to speech</Keyword>
+
+            <ISO639>
+                <iso-639-3-code>dag</iso-639-3-code>
+            </ISO639>
+            <Licence>
+                <identifier>NOODL-1.0</identifier>
+                <label>Nwulite Obodo Open Data Licence 1.0 (NOODL-1.0)</label>
+                <url>https://licensingafricandatasets.com/nwulite-obodo-license</url>
+            </Licence>
+        </ResourceBasicInfo>
+    </cmd:Components>
+</cmd:CMD>
