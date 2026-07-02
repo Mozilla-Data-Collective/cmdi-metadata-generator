@@ -38,23 +38,7 @@
             <Keyword>natural language processing</Keyword>
 
             <ISO639>
-                <iso-639-3-code>bam</iso-639-3-code>
-            </ISO639>
-
-            <ISO639>
-                <iso-639-3-code>nya</iso-639-3-code>
-            </ISO639>
-
-            <ISO639>
-                <iso-639-3-code>hau</iso-639-3-code>
-            </ISO639>
-
-            <ISO639>
-                <iso-639-3-code>kau</iso-639-3-code>
-            </ISO639>
-
-            <ISO639>
-                <iso-639-3-code>luo</iso-639-3-code>
+                <iso-639-3-code>zxx</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC-BY-NC-4.0</identifier>

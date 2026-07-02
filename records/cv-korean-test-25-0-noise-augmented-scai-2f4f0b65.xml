@@ -42,7 +42,7 @@ The purpose of this dataset is to enable systematic evaluation of ASR systems un
             <Keyword>speech recognition</Keyword>
 
             <ISO639>
-                <iso-639-3-code>kor</iso-639-3-code>
+                <iso-639-3-code>zxx</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC0-1.0</identifier>

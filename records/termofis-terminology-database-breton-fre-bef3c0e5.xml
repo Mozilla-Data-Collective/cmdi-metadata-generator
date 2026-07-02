@@ -40,11 +40,7 @@ The database is managed by the OPAB (Ofis Publik ar Brezhoneg, the Public Office
             <Format>text/csv</Format>
             
             <ISO639>
-                <iso-639-3-code>bre</iso-639-3-code>
-            </ISO639>
-
-            <ISO639>
-                <iso-639-3-code>fra</iso-639-3-code>
+                <iso-639-3-code>zxx</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC-BY-NC-SA-4.0</identifier>

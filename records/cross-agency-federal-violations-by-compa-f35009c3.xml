@@ -40,7 +40,7 @@ This dataset surfaces every U.S. employer with enforcement records from two or m
             <Format>text/csv</Format>
             
             <ISO639>
-                <iso-639-3-code>eng</iso-639-3-code>
+                <iso-639-3-code>zxx</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC-BY-4.0</identifier>

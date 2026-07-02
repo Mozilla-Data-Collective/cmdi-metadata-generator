@@ -40,11 +40,7 @@
             <Keyword>machine translation</Keyword>
 
             <ISO639>
-                <iso-639-3-code>est</iso-639-3-code>
-            </ISO639>
-
-            <ISO639>
-                <iso-639-3-code>eng</iso-639-3-code>
+                <iso-639-3-code>zxx</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC-BY-NC-4.0</identifier>
