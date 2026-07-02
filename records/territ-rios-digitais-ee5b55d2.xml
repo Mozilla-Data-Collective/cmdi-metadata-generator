@@ -48,7 +48,11 @@ While the dataset is made publicly available, it is shared under conditions that
             <Format>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</Format>
             
             <ISO639>
-                <iso-639-3-code>zxx</iso-639-3-code>
+                <iso-639-3-code>por</iso-639-3-code>
+            </ISO639>
+
+            <ISO639>
+                <iso-639-3-code>eng</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC-BY-4.0</identifier>

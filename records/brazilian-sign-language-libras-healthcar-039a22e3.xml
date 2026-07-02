@@ -40,7 +40,11 @@
             <Format>application/json</Format>
             
             <ISO639>
-                <iso-639-3-code>zxx</iso-639-3-code>
+                <iso-639-3-code>bzs</iso-639-3-code>
+            </ISO639>
+
+            <ISO639>
+                <iso-639-3-code>por</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC-BY-NC-SA-4.0</identifier>

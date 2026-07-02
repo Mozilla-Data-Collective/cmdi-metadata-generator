@@ -40,7 +40,15 @@ Spanning from December 2001 to December 2025, the corpus contains over 105,000 u
             <Keyword>natural language processing</Keyword>
 
             <ISO639>
-                <iso-639-3-code>zxx</iso-639-3-code>
+                <iso-639-3-code>tat</iso-639-3-code>
+            </ISO639>
+
+            <ISO639>
+                <iso-639-3-code>bak</iso-639-3-code>
+            </ISO639>
+
+            <ISO639>
+                <iso-639-3-code>rus</iso-639-3-code>
             </ISO639>
             <Licence>
                 <identifier>CC-BY-NC-SA-4.0</identifier>
