@@ -3,7 +3,7 @@ import datacollective, requests, sys, datetime, math, os, glob, time
 import xml.etree.ElementTree as ET
 
 RECORDS_DIR = 'records/'
-RATE_LIMIT_DELAY = 0.5
+RATE_LIMIT_DELAY = 0.5 # There is a generic rate limit of 200 requests / minute
 
 def estimate_end(last, now, window_len, current, total):
 	# get n secs per dataset, multiply by datasets pending	
