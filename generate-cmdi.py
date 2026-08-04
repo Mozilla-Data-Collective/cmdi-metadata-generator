@@ -1,8 +1,9 @@
 import cmdi_template
-import datacollective, requests, sys, datetime, math, os, glob
+import datacollective, requests, sys, datetime, math, os, glob, time
 import xml.etree.ElementTree as ET
 
 RECORDS_DIR = 'records/'
+RATE_LIMIT_DELAY = 0.5
 
 def estimate_end(last, now, window_len, current, total):
 	# get n secs per dataset, multiply by datasets pending	
@@ -71,6 +72,7 @@ for url in root.findall('ns:url', namespace):
 		#prog = '%s/%s' % (str(found_datasets).zfill(zf), str(total_datasets).zfill(zf)) 
 		print('\b' * len(prog)+ prog, file=sys.stderr, end='')
 		sys.stderr.flush()
+		time.sleep(RATE_LIMIT_DELAY)
 
 print()
 missing_records = set(existing_records) - set(found_records)
